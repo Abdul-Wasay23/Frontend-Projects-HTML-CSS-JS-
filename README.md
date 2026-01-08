@@ -1,2 +1,30 @@
-# Frontend-Projects-HTML-CSS-JS-
-Collection of frontend projects including HTML, CSS, and JavaScript. Responsive designs and UI-focused examples.
+# Frontend Projects (HTML, CSS & JavaScript)
+
+Collection of frontend projects built using **HTML, CSS, and JavaScript**, focused on clean UI and responsive layouts.
+
+---
+
+## 📂 Project Categories
+
+### 🛒 E-Commerce
+
+
+---
+
+### 🛠️ Services Websites
+- 001-MedRx-Management-Llc
+
+---
+
+### 🧑‍💼 Portfolio & Personal
+
+
+---
+
+### 🏢 Business & Corporate
+
+
+---
+
+### 📄 Landing Pages
+
