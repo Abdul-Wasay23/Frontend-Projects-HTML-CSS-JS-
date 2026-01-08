@@ -37,4 +37,8 @@ To view the website locally:
 
 ## Contact
 **Integrated Mind & MedRx Management LLC**
-(Add specific contact info if available in the footer or contact page, e.g., phone, email, address)
+
+- 📞 Phone: 0319-2020749  
+- ✉️ Email: wasay45456@gmail.com  
+
+
