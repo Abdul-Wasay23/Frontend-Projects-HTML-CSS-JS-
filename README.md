@@ -8,23 +8,22 @@ Collection of frontend projects built using **HTML, CSS, and JavaScript**, focus
 
 ### 🛒 E-Commerce
 
-
 ---
 
 ### 🛠️ Services Websites
-- 001-MedRx-Management-Llc
+- **001-MedRx-Management-Llc**  
+  [👁️ View](https://github.com/Abdul-Wasay23/Frontend-Projects-HTML-CSS-JS-/blob/main/001-MedRx-Management-Llc/MedRx-View.jpg)
+  | [💻 Code](https://github.com/Abdul-Wasay23/Frontend-Projects-HTML-CSS-JS-/tree/main/001-MedRx-Management-Llc)
+  | [📘 README](https://github.com/Abdul-Wasay23/Frontend-Projects-HTML-CSS-JS-/blob/main/001-MedRx-Management-Llc/README.md)
 
 ---
 
 ### 🧑‍💼 Portfolio & Personal
 
-
 ---
 
 ### 🏢 Business & Corporate
 
-
 ---
 
 ### 📄 Landing Pages
-
