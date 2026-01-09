@@ -23,6 +23,10 @@ Collection of frontend projects built using **HTML, CSS, and JavaScript**, focus
 ---
 
 ### 🏢 Business & Corporate
+- **002-Devnest**  
+  [👁️ View](https://github.com/Abdul-Wasay23/Frontend-Projects-HTML-CSS-JS-/blob/main/002-Devnest/Devnest-View.png)
+  | [💻 Code](https://github.com/Abdul-Wasay23/Frontend-Projects-HTML-CSS-JS-/tree/main/002-Devnest)
+  | [📘 README](https://github.com/Abdul-Wasay23/Frontend-Projects-HTML-CSS-JS-/blob/main/002-Devnest/README.md)
 
 ---
 
