@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <!-- Required meta tags -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- Bootstrap CSS -->
+      <link href="css/animate.css" rel="stylesheet">
+      <link href="fontawesome5/css/all.min.css" rel="stylesheet">
+      <link href="slick/slick-theme.css" rel="stylesheet" type="text/css">
+      <link href="slick/slick.css" rel="stylesheet" type="text/css">
+      <link href="css/slicknav.css" rel="stylesheet" type="text/css">
+      <link href="css/fancybox.css" rel="stylesheet" type="text/css">
+      <link href="css/bootstrap.css" rel="stylesheet">
+      <link href="css/custom.css" rel="stylesheet">
+      <link href="css/wp-custom.css" rel="stylesheet">
+      <link href="css/responsive.css" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer"
+         />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer"
+         />
+      <title>Home - Mobile & Master </title>
+   </head>
+   <body>
+      <div id="Header"></div>
+      <div class="sidebar" id="sidebar">
+         <button class="close-btn" onclick="toggleSidebar()">✖</button>
+         <h3>What are you looking for ?</h3>
+         <div class="filter-container">
+            <div class="row">
+               <div class="col-lg-6">
+                  <div class="categorie-box">
+                     <label for="category">Category:</label>
+                     <select id="category" onchange="handleCategoryChange()">
+                        <option value="all">All</option>
+                        <option value="panels">Mobile Panels</option>
+                        <option value="leds">LEDs</option>
+                        <option value="batteries">Batteries</option>
+                        <option value="components">Repair Components</option>
+                     </select>
+                  </div>
+                  <!-- Phone Company Dropdown (Initially Hidden) -->
+                  <div id="phoneCompanyContainer" class="categorie-box">
+                     <label for="phoneCompany">Phone Company:</label>
+                     <select id="phoneCompany" onchange="applyFilters()">
+                        <option value="all">All</option>
+                        <option value="iphone">iPhone</option>
+                        <option value="samsung">Samsung</option>
+                        <option value="vivo">Vivo</option>
+                        <option value="oppo">Oppo</option>
+                        <option value="huawei">Huawei</option>
+                     </select>
+                  </div>
+               </div>
+               <div class="col-lg-6">
+                  <!-- <div class="categorie-box">
+                     <label for="color">Color:</label>
+                     <select id="color" onchange="applyFilters()">
+                       <option value="all">All</option>
+                       <option value="black">Black</option>
+                       <option value="white">White</option>
+                       <option value="blue">Blue</option>
+                     </select>
+                     </div> -->
+                  <div class="categorie-box">
+                     <label for="quality">Quality:</label>
+                     <select id="quality" onchange="applyFilters()">
+                        <option value="all">All</option>
+                        <option value="low">Low</option>
+                        <option value="medium">Medium</option>
+                        <option value="high">High</option>
+                     </select>
+                  </div>
+                  <div class="categorie-box">
+                     <label for="price">Price Range:</label>
+                     <select id="price" onchange="applyFilters()">
+                        <option value="all">All</option>
+                        <option value="low">Under €50</option>
+                        <option value="medium">€50 - €150</option>
+                        <option value="high">Above €150</option>
+                     </select>
+                  </div>
+               </div>
+               <!-- <div class="col-lg-12">
+                  <div class="filter-box">
+                    <fieldset class="filter-price">
+                  
+                      <div class="price-field">
+                        <input type="range" min="100" max="500" value="100" id="lower">
+                        <input type="range" min="100" max="500" value="500" id="upper">
+                      </div>
+                      <div class="price-wrap">
+                        <span class="price-title">FILTER</span>
+                        <div class="price-wrap-1">
+                          <input id="one">
+                          <label for="one">€</label>
+                        </div>
+                        <div class="price-wrap_line">-</div>
+                        <div class="price-wrap-2">
+                          <input id="two">
+                          <label for="two">€</label>
+                        </div>
+                      </div>
+                    </fieldset>
+                  </div>
+                  </div> -->
+            </div>
+         </div>
+         <div class="search-container">
+            <h5>Search Products</h5>
+            <input type="text" placeholder="Search here...">
+            <button id="search-btn" class="search-btn"><img src="images/search.gif" alt=""></button>
+         </div>
+         <div class="product-list">
+            <div class="product panels high black medium" data-company="iphone">€120 - Black Mobile Panel</div>
+            <div class="product leds high white low" data-company="samsung">€200 - White LED Display</div>
+            <div class="product batteries low blue medium">€30 - Blue Battery</div>
+            <div class="product components medium black high" data-company="vivo">€75 - Black Repair Component</div>
+         </div>
+      </div>
+   
+   
+      <section class="banner-sec ">
+         <img src="images/banner.jpg" alt="banner-image" class="banner-image">
+         <div class="container hei">
+            <div class="row hei">
+               <div class="col-lg-6 hei">
+                  <div class="banner_text hei">
+                     <h1>Meet Galaxy S20 , S20+</h1>
+                     <p> This is the phone that will change photography . </p>
+                     <a href="#" class="theme-btn">Explore Now </a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      
+      <section class="top-sell-sec sec">
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-4 col-md-4 col-12 col-sm-10">
+                  <div class="top-sell-card">
+                     <div class="top-sell-card-image">
+                        <a href="#"> 
+                        <img src="images/top-feature.png" alt="">
+                        </a>
+                     </div>
+                     <div class="top-sell-card-text">
+                        <h5>Top Featured</h5>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-4 col-md-4 col-12 col-sm-10">
+                  <div class="top-sell-card">
+                     <div class="top-sell-card-image">
+                        <a href="#">
+                        <img src="images/top-sell1.png" alt="">
+                        </a>
+                     </div>
+                     <div class="top-sell-card-text">
+                        <h5>New Arrivals</h5>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-4 col-md-4 col-12 col-sm-10">
+                  <div class="top-sell-card">
+                     <div class="top-sell-card-image">
+                        <a href="#">
+                        <img src="images/top-sell3.png" alt="">
+                        </a>
+                     </div>
+                     <div class="top-sell-card-text">
+                        <h5>Top Sellings</h5>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      
+      <section class="product-listing-sec sec">
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-12">
+                  <div class="heading  topbar">
+                     <h2 class="caret">Best Selling</h2>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-12">
+                  <div class="product-listing-card">
+                     <div class="product-listing-card-image">
+                        <span class="stock" id="stock-count">Out Of Stock</span>
+                        <a href="#">
+                        <img src="images/iphone15pro.png" alt="" id="listing-image" class="listing-before">
+                        <img src="images/iphone15pro1.png" alt="" id="listing-image" class="listing-after">
+                        </a>
+                        <div class="product-listing-card-nav">
+                           <a href="#" class="cart" id="cart" title="Add To Cart">
+                           <i class="fa fa-shopping-cart"></i>
+                           </a>
+                           <a href="#" class="preview" id="quick-view" title="Qiuick View">
+                           <i class="fa fa-eye"></i>
+                           </a>
+                           <a href="#" class="wishlist" id="wishlist" title="Wishlist">
+                           <i class="fa-regular fa-heart"></i>
+                           </a>
+                        </div>
+                        <div class="radio-color-container">
+                           <div class="radio black" onclick="selectRadio(this)"></div>
+                           <div class="radio silver" onclick="selectRadio(this)"></div>
+                           <div class="radio gray" onclick="selectRadio(this)"></div>
+                           <div class="radio golden" onclick="selectRadio(this)"></div>
+                           <div class="radio white" onclick="selectRadio(this)"></div>
+                        </div>
+                     </div>
+                     <div class="product-listing-card-text">
+                        <h5 id="product-list-name">Product Name Here</h5>
+                        <p>Organicore for iPhone 14 Pro</p>
+                        <ul class="cost-list">
+                           <li>
+                              <h5>50.00€</h5>
+                           </li>
+                           <li>
+                              <ul class="stars" id="star-rating">
+                                 <li>
+                                    <a href="#"> <i class="fa-regular fa-star"></i></a>
+                                 </li>
+                                 <li>
+                                    <a href="#"> <i class="fa-regular fa-star"></i></a>
+                                 </li>
+                                 <li>
+                                    <a href="#"> <i class="fa-regular fa-star"></i></a>
+                                 </li>
+                                 <li>
+                                    <a href="#"> <i class="fa-regular fa-star"></i></a>
+                                 </li>
+                                 <li>
+                                    <a href="#"> <i class="fa-regular fa-star"></i></a>
+                                 </li>
+                              </ul>
+                           </li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-12">
+                  <div class="product-listing-card">
+                     <div class="product-listing-card-image">
+                        <span class="stock" id="stock-count">Out Of Stock</span>
+                        <a href="#">
+                        <img src="images/iphone15pro.png" alt="" id="listing-image" class="listing-before">
+                        <img src="images/iphone15pro1.png" alt="" id="listing-image" class="listing-after">
+                        </a>
+                        <div class="product-listing-card-nav">
+                           <a href="#" class="cart" id="cart" title="Add To Cart">
+                           <i class="fa fa-shopping-cart"></i>
+                           </a>
+                           <a href="#" class="preview" id="quick-view" title="Qiuick View">
+                           <i class="fa fa-eye"></i>
+                           </a>
+                           <a href="#" class="wishlist" id="wishlist" title="Wishlist">
+                           <i class="fa-regular fa-heart"></i>
+                           </a>
+                        </div>
+                        <div class="radio-color-container">
+                           <div class="radio black" onclick="selectRadio(this)"></div>
+                           <div class="radio silver" onclick="selectRadio(this)"></div>
+                           <div class="radio gray" onclick="selectRadio(this)"></div>
+                           <div class="radio golden" onclick="selectRadio(this)"></div>
+                           <div class="radio white" onclick="selectRadio(this)"></div>
+                        </div>
+                     </div>
+                     <div class="product-listing-card-text">
+                        <h5 id="product-list-name">Product Name Here</h5>
+                        <p>Organicore for iPhone 14 Pro</p>
+                        <ul class="cost-list">
+                           <li>
+                              <h5>50.00€</h5>
+                           </li>
+                           <li>
+                              <ul class="stars" id="star-rating">
+                                 <li>
+                                    <a href="#"> <i class="fa-regular fa-star"></i></a>
+                                 </li>
+                                 <li>
+                                    <a href="#"> <i class="fa-regular fa-star"></i></a>
+                                 </li>
+                                 <li>
+                                    <a href="#"> <i class="fa-regular fa-star"></i></a>
+                                 </li>
+                                 <li>
+                                    <a href="#"> <i class="fa-regular fa-star"></i></a>
+                                 </li>
+                                 <li>
+                                    <a href="#"> <i class="fa-regular fa-star"></i></a>
+                                 </li>
+                              </ul>
+                           </li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-12">
+                  <div class="product-listing-card">
+                     <div class="product-listing-card-image">
+                        <span class="stock" id="stock-count">Out Of Stock</span>
+                        <a href="#">
+                        <img src="images/iphone15pro.png" alt="" id="listing-image" class="listing-before">
+                        <img src="images/iphone15pro1.png" alt="" id="listing-image" class="listing-after">
+                        </a>
+                        <div class="product-listing-card-nav">
+                           <a href="#" class="cart" id="cart" title="Add To Cart">
+                           <i class="fa fa-shopping-cart"></i>
+                           </a>
+                           <a href="#" class="preview" id="quick-view" title="Qiuick View">
+                           <i class="fa fa-eye"></i>
+                           </a>
+                           <a href="#" class="wishlist" id="wishlist" title="Wishlist">
+                           <i class="fa-regular fa-heart"></i>
+                           </a>
+                        </div>
+                        <div class="radio-color-container">
+                           <div class="radio black" onclick="selectRadio(this)"></div>
+                           <div class="radio silver" onclick="selectRadio(this)"></div>
+                           <div class="radio gray" onclick="selectRadio(this)"></div>
+                           <div class="radio golden" onclick="selectRadio(this)"></div>
+                           <div class="radio white" onclick="selectRadio(this)"></div>
+                        </div>
+                     </div>
+                     <div class="product-listing-card-text">
+                        <h5 id="product-list-name">Product Name Here</h6>
+                        <p>Organicore for iPhone 14 Pro</p>
+                        <ul class="cost-list">
+                           <li>
+                              <h5>50.00€</h5>
+                           </li>
+                           <li>
+                              <ul class="stars" id="star-rating">
+                                 <li>
+                                    <a href="#"> <i class="fa-regular fa-star"></i></a>
+                                 </li>
+                                 <li>
+                                    <a href="#"> <i class="fa-regular fa-star"></i></a>
+                                 </li>
+                                 <li>
+                                    <a href="#"> <i class="fa-regular fa-star"></i></a>
+                                 </li>
+                                 <li>
+                                    <a href="#"> <i class="fa-regular fa-star"></i></a>
+                                 </li>
+                                 <li>
+                                    <a href="#"> <i class="fa-regular fa-star"></i></a>
+                                 </li>
+                              </ul>
+                           </li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-12">
+                  <div class="product-listing-card">
+                     <div class="product-listing-card-image">
+                        <span class="stock" id="stock-count">Out Of Stock</span>
+                        <a href="#">
+                        <img src="images/iphone15pro.png" alt="" id="listing-image" class="listing-before">
+                        <img src="images/iphone15pro1.png" alt="" id="listing-image" class="listing-after">
+                        </a>
+                        <div class="product-listing-card-nav">
+                           <a href="#" class="cart" id="cart" title="Add To Cart">
+                           <i class="fa fa-shopping-cart"></i>
+                           </a>
+                           <a href="#" class="preview" id="quick-view" title="Qiuick View">
+                           <i class="fa fa-eye"></i>
+                           </a>
+                           <a href="#" class="wishlist" id="wishlist" title="Wishlist">
+                           <i class="fa-regular fa-heart"></i>
+                           </a>
+                        </div>
+                        <div class="radio-color-container">
+                           <div class="radio black" onclick="selectRadio(this)"></div>
+                           <div class="radio silver" onclick="selectRadio(this)"></div>
+                           <div class="radio gray" onclick="selectRadio(this)"></div>
+                           <div class="radio golden" onclick="selectRadio(this)"></div>
+                           <div class="radio white" onclick="selectRadio(this)"></div>
+                        </div>
+                     </div>
+                     <div class="product-listing-card-text">
+                        <h5 id="product-list-name">Product Name Here</h5>
+                        <p>Organicore for iPhone 14 Pro</p>
+                        <ul class="cost-list">
+                           <li>
+                              <h5>50.00€</h5>
+                           </li>
+                           <li>
+                              <ul class="stars" id="star-rating">
+                                 <li>
+                                    <a href="#"> <i class="fa-regular fa-star"></i></a>
+                                 </li>
+                                 <li>
+                                    <a href="#"> <i class="fa-regular fa-star"></i></a>
+                                 </li>
+                                 <li>
+                                    <a href="#"> <i class="fa-regular fa-star"></i></a>
+                                 </li>
+                                 <li>
+                                    <a href="#"> <i class="fa-regular fa-star"></i></a>
+                                 </li>
+                                 <li>
+                                    <a href="#"> <i class="fa-regular fa-star"></i></a>
+                                 </li>
+                              </ul>
+                           </li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <section class="delivery-sec sec">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-10 col-12">
+                    <div class="delivery-card">
+                        <div class="delivery-image">
+                            <img src="images/free-delivery.png" alt="">
+                        </div>
+                        <div class="delivery-text">
+                            <h5>Free Delivery</h5>
+                            <p>Free shipping on all US order
+                            or order above €100</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-10 col-12">
+                    <div class="delivery-card">
+                        <div class="delivery-image">
+                            <img src="images/satisfaction.png" alt="">
+                        </div>
+                        <div class="delivery-text">
+                            <h5>99% Satisfied Customers </h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-10 col-12">
+                    <div class="delivery-card">
+                        <div class="delivery-image">
+                            <img src="images/product-return.png" alt="">
+                        </div>
+                        <div class="delivery-text">
+                            <h5>30 Days Return</h5>
+                            <p>Simply return it within 30
+                            days for an exchange.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-10 col-12">
+                    <div class="delivery-card">
+                        <div class="delivery-image">
+                            <img src="images/support.png" alt="">
+                        </div>
+                        <div class="delivery-text">
+                            <h5>24/7 Support</h5>
+                            <p>Contact us 24 hours a day
+                            7 days a week</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
+
+      <div id="Footer"></div>
+      <script src="js/jquery-3.6.0.min.js"></script>
+      <script src="js/wow.js"></script>
+      <script src="slick/slick.js"></script>
+      <script src="slick/slick.min.js"></script>
+      <script src="js/jquery.slicknav.js"></script>
+      <script src="js/fancybox.js"></script>
+      <script src="js/font-awesome.js"></script>
+      <script src="js/bootstrap.js"></script>
+      <script src="js/font.js"></script>
+      <script src="js/custom.js"></script>
+      <!-- language translator cdn -->
+      <script>
+         window.gtranslateSettings = { "default_language": "en", "languages": ["en", "pt", "de", "es",], "wrapper_selector": ".gtranslate_wrapper", "flag_size": 24, "switcher_horizontal_position": "inline" }
+      </script>
+      <script src="https://cdn.gtranslate.net/widgets/latest/dwf.js" defer></script>
+      <!-- language translator cdn -->
+
+    
+      <script>
+         function toggleSidebar() {
+             document.getElementById("sidebar").classList.toggle("active");
+           }
+         
+           // for showing dropdown on click of any options of select (start)
+         
+           // function handleCategoryChange() {
+           //   let category = document.getElementById("category").value;
+           //   let phoneCompanyContainer = document.getElementById("phoneCompanyContainer");
+         
+           //   if (category === "panels") {
+           //     phoneCompanyContainer.style.display = "block"; // Show the phone company dropdown
+           //   } else {
+           //     phoneCompanyContainer.style.display = "none"; // Hide it if another category is selected
+           //   }
+         
+           //   applyFilters();
+           // }
+         
+           // for showing dropdown on click of any options of select (end)
+         
+           // for applying filter (start)
+         
+           // function applyFilters() {
+           //   let category = document.getElementById("category").value;
+           //   let price = document.getElementById("price").value;
+           //   let color = document.getElementById("color").value;
+           //   let quality = document.getElementById("quality").value;
+           //   let phoneCompany = document.getElementById("phoneCompany").value;
+         
+           //   let products = document.querySelectorAll(".product");
+         
+           //   products.forEach(product => {
+           //     let matchesCategory = category === "all" || product.classList.contains(category);
+           //     let matchesPrice = price === "all" || product.classList.contains(price);
+           //     let matchesColor = color === "all" || product.classList.contains(color);
+           //     let matchesQuality = quality === "all" || product.classList.contains(quality);
+           //     let matchesCompany = phoneCompany === "all" || product.dataset.company === phoneCompany;
+         
+           //     if (matchesCategory && matchesPrice && matchesColor && matchesQuality && matchesCompany) {
+           //       product.classList.remove("hide");
+           //     } else {
+           //       product.classList.add("hide");
+           //     }
+           //   });
+           // }
+         
+           // for applying filter (end)
+      </script>
+      <script>
+         function selectRadio(selected) {
+             // Remove 'active' class from all radios
+             document.querySelectorAll('.radio').forEach(radio => {
+               radio.classList.remove('active');
+             });
+         
+             // Add 'active' class to the clicked one
+             selected.classList.add('active');
+           }
+      </script>
+      <script>
+         var lowerSlider = document.querySelector('#lower');
+           var upperSlider = document.querySelector('#upper');
+         
+           document.querySelector('#two').value = upperSlider.value;
+           document.querySelector('#one').value = lowerSlider.value;
+         
+           var lowerVal = parseInt(lowerSlider.value);
+           var upperVal = parseInt(upperSlider.value);
+         
+           upperSlider.oninput = function () {
+             lowerVal = parseInt(lowerSlider.value);
+             upperVal = parseInt(upperSlider.value);
+         
+             if (upperVal < lowerVal + 4) {
+               lowerSlider.value = upperVal - 4;
+               if (lowerVal == lowerSlider.min) {
+                 upperSlider.value = 4;
+               }
+             }
+             document.querySelector('#two').value = this.value
+           };
+         
+           lowerSlider.oninput = function () {
+             lowerVal = parseInt(lowerSlider.value);
+             upperVal = parseInt(upperSlider.value);
+             if (lowerVal > upperVal - 4) {
+               upperSlider.value = lowerVal + 4;
+               if (upperVal == upperSlider.max) {
+                 lowerSlider.value = parseInt(upperSlider.max) - 4;
+               }
+             }
+             document.querySelector('#one').value = this.value
+           };
+      </script>
+   </body>
+</html>

@@ -1,0 +1,124 @@
+<!-- header start -->
+<header >
+<div class="top-bar" id="topbar">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="hdr-topbar">
+                    <a href="#" class="hdr-sale">
+                        Today Deal Sale of 70%
+                    </a>
+                    <div class="topbar-close-button">
+                        <a href="#" id="topbar-close" title="Close">
+                            <i class="fa-solid fa-xmark"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+   <div class="middle-bar">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-12 col-sm-12">
+                <div class="hdr-contact-info">
+                    <ul class="hdr-contact-list">
+                        <li>
+                            <i class="fa-solid fa-phone"></i>
+                            <a href="tell:+123-456-789" title="Contact Us By Phone Number">
+                                123-456-789
+                            </a>
+                    </li>
+                        <li>
+                            <i class="fa-solid fa-envelope"></i>
+                            <a href="mailto:demolink@gmail.com" title="Contact Us By Mail">
+                                demolink@gmail.com
+                            </a>
+                    </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-12 col-sm-12">
+                <div class="summer-sale">
+                    <p>Summer sale discount off 50%! Shop Now</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-12 col-sm-12">
+                <div class="hdr-language">
+                    <div class="globe">
+                        <div class="translate">
+                            <div class="gtranslate_wrapper"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   </div>
+   <div class="bottom-bar">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-3 col-md-6 col-12 col-sm-10">
+                <div class="hdr-logo">
+                    <a href="index.html">
+                        Mobile  Master <span>pt</span>
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <ul id="menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12 col-sm-10">
+            <div class="hdr-options">
+                <ul class="hdr-options-list">
+                     <li>
+                        <a href="#" id="search" title="search" onclick="toggleSidebar()">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </a>
+                    </li>
+                     <li>
+                        <a href="#" id="login" title="login">
+                            <i class="fa-regular fa-user"></i>
+                        </a>
+                    </li>
+                     <li>
+                        <a href="#" id="wishlist" title="wishlist">
+                            <i class="fa-regular fa-heart"></i>
+                            <span class="hdr-count" id="wishlist-count">01</span>
+                        </a>
+                    </li>
+                     <li>
+                        <a href="#" id="cart" title="cart">
+                            <i class="fa-regular fa-cart-shopping"></i>
+                            <span class="hdr-count" id="cart-count">01</span>
+
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            </div>
+        </div>
+    </div>
+ </header>
+
+<!-- header end-->
+
+<script>
+    document.getElementById("topbar-close").addEventListener("click", function (event) {
+        event.preventDefault(); // Prevent default anchor behavior
+        const topbar = document.getElementById("topbar");
+        topbar.classList.add("hidden"); // Add class to trigger animation
+
+        // After animation completes, remove the element from view
+        setTimeout(() => {
+            topbar.style.display = "none";
+        }, 500);
+    });
+</script>
