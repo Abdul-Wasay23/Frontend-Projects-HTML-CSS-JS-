@@ -10,7 +10,7 @@ Collection of frontend projects built using **HTML, CSS, and JavaScript**, focus
 - **003-Mobile-Master**  
   [👁️ View](./003-Mobile-Master/MobileMaster-View.png)
   | [💻 Code](./003-Mobile-Master)
-  | [⬇️ Download](./003-Mobile-Master/003-Mobile-Master.zip)
+  | [⬇️ Download](https://github.com/Abdul-Wasay23/Frontend-Projects-HTML-CSS-JS-/raw/main/003-Mobile-Master/003-Mobile-Master.zip)
   | [📘 README](./003-Mobile-Master/README.md)
 ---
 
