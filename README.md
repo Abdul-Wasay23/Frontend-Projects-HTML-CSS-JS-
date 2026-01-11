@@ -8,10 +8,11 @@ Collection of frontend projects built using **HTML, CSS, and JavaScript**, focus
 
 ### 🛒 E-Commerce
 - **003-Mobile-Master**  
-  [👁️ View](./003-Mobile-Master/MobileMaster-View.png)
-  | [💻 Code](./003-Mobile-Master)
+  [👁️ View](https://github.com/Abdul-Wasay23/Frontend-Projects-HTML-CSS-JS-/blob/main/003-Mobile-Master/MobileMaster-View.png)
+  | [💻 Code](https://github.com/Abdul-Wasay23/Frontend-Projects-HTML-CSS-JS-/tree/main/003-Mobile-Master)
   | [⬇️ Download](https://github.com/Abdul-Wasay23/Frontend-Projects-HTML-CSS-JS-/raw/main/003-Mobile-Master/003-Mobile-Master.zip)
-  | [📘 README](./003-Mobile-Master/README.md)
+  | [📘 README](https://github.com/Abdul-Wasay23/Frontend-Projects-HTML-CSS-JS-/blob/main/003-Mobile-Master/README.md)
+
 ---
 
 ### 🛠️ Services Websites
