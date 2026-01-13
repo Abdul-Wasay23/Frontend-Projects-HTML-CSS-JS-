@@ -13,6 +13,13 @@ Collection of frontend projects built using **HTML, CSS, and JavaScript**, focus
   | [⬇️ Download](https://github.com/Abdul-Wasay23/Frontend-Projects-HTML-CSS-JS-/raw/main/003-Mobile-Master/003-Mobile-Master.zip)
   | [📘 README](https://github.com/Abdul-Wasay23/Frontend-Projects-HTML-CSS-JS-/blob/main/003-Mobile-Master/README.md)
 
+- **004-SpiritX**  
+  [👁️ View](https://github.com/Abdul-Wasay23/Frontend-Projects-HTML-CSS-JS-/blob/main/004-SpiritX/SpiritX-Desktop-View.jpg)
+  | [💻 Code](https://github.com/Abdul-Wasay23/Frontend-Projects-HTML-CSS-JS-/tree/main/004-SpiritX)
+  | [⬇️ Download](https://github.com/Abdul-Wasay23/Frontend-Projects-HTML-CSS-JS-/raw/main/004-SpiritX/004-SpiritX.zip)
+  | [📘 README](https://github.com/Abdul-Wasay23/Frontend-Projects-HTML-CSS-JS-/blob/main/004-SpiritX/README.md)
+
+
 ---
 
 ### 🛠️ Services Websites
