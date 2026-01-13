@@ -1,0 +1,1172 @@
+/*Media Query Start*/
+
+@media only screen and (min-width: 1366px) and (max-width: 1500px) {
+
+    .trend-column1 {
+        left: 50px;
+    }
+
+    .trend-column4 {
+        left: 100px;
+    }
+
+    .header-top .top-nav ul {
+        justify-content: space-between;
+        gap: 5px;
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 85px;
+        line-height: 1.2;
+        color: #252525;
+        font-weight: 800;
+        text-transform: capitalize;
+    }
+
+    .add-to-cart .table>thead>tr>th {
+        border-bottom: 0;
+        padding-left: 15px;
+        padding-bottom: 25px;
+        padding-top: 25px;
+        text-align: left;
+        white-space: nowrap;
+    }
+
+    .total-section {
+        border: 1px solid #eeeeee;
+        padding: 27px 10px;
+        background-color: #f7f7f7;
+        border-radius: 14px;
+    }
+
+    .ship-estimate {
+        padding: 10px 10px;
+        margin-top: 10px;
+        border: 1px solid #eeeeee;
+        background-color: #f7f7f7;
+        border-radius: 14px;
+    }
+
+    li.color-change {
+        color: #000;
+        text-transform: uppercase;
+        font-size: 22px;
+        font-weight: 500;
+        margin: 0;
+        font-family: 'Cutmark-Medium';
+    }
+
+    .ship-estimate li {
+        text-transform: uppercase;
+        font-size: 22px;
+        font-weight: 400;
+        margin: 0 0 10px 0;
+        font-family: 'Cutmark-Medium';
+    }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1365px) {
+
+    .add-to-cart .table>thead>tr>th {
+        border-bottom: 0;
+        padding-left: 15px;
+        padding-bottom: 25px;
+        padding-top: 25px;
+        text-align: left;
+        white-space: nowrap;
+    }
+
+    .total-section {
+        border: 1px solid #eeeeee;
+        padding: 27px 10px;
+        background-color: #f7f7f7;
+        border-radius: 14px;
+    }
+
+    .ship-estimate {
+        padding: 10px 10px;
+        margin-top: 10px;
+        border: 1px solid #eeeeee;
+        background-color: #f7f7f7;
+        border-radius: 14px;
+    }
+
+    li.color-change {
+        color: #000;
+        text-transform: uppercase;
+        font-size: 22px;
+        font-weight: 500;
+        margin: 0;
+        font-family: 'Cutmark-Medium';
+    }
+
+    .ship-estimate li {
+        text-transform: uppercase;
+        font-size: 22px;
+        font-weight: 400;
+        margin: 0 0 10px 0;
+        font-family: 'Cutmark-Medium';
+    }
+
+    .inn-abt-img img {
+        height: 746px;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    section.trend-sec .trend-column {
+        width: 25%;
+    }
+
+    .trend-column1 {
+        left: 0;
+        top: 100px;
+    }
+
+    .trend-column4 {
+        left: 0;
+    }
+
+    .trend-column2 {
+        left: 0;
+    }
+
+    .trend-column3 {
+        left: 0;
+    }
+
+
+    .trend-box {
+        padding: 50px 100px;
+        flex-wrap: wrap;
+    }
+
+    .header-top .top-nav ul {
+        justify-content: space-between;
+        gap: 0;
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 75px;
+    }
+
+    img.banner-img {
+        height: 600px;
+    }
+
+    /* About Us - Tablet Landscape */
+    section.mission_sec.sec {
+        padding: 50px 0;
+    }
+
+    /* Products - Tablet Landscape */
+    .catogeriesbox {
+        margin-bottom: 30px;
+    }
+}
+
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    section.header .col-lg-8.col-md-12.col-sm-12 {
+        width: 100%;
+        order: 3;
+    }
+
+    section.header .col-lg-2.col-md-6.col-sm-6 {
+        order: 2;
+        width: 50%;
+    }
+
+    .hdr_btn {
+        display: flex;
+        align-items: center;
+        justify-content: end;
+    }
+
+    .trend-box {
+        padding: 50px 100px;
+        flex-wrap: wrap;
+    }
+
+    .trend-column {
+        width: 50%;
+        left: 0 !important;
+        top: 0 !important;
+        margin-bottom: 30px;
+        padding: 0 15px;
+    }
+
+    .trend-column .trend-card {
+        position: relative !important;
+        bottom: 0 !important;
+        width: 100%;
+    }
+
+    .trend-column .trend-main-text {
+        position: relative;
+        width: 100%;
+        text-align: center;
+        left: 0;
+        bottom: 0;
+        margin-top: 20px;
+    }
+
+    /* Product Grid - spacing */
+    .product-card {
+        margin-bottom: 30px;
+    }
+
+    .nav ul li a {
+        padding: 10px 10px;
+    }
+
+    .header-top .top-nav ul {
+        gap: 0;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 45px;
+    }
+
+    .inner-banner img.banner-img {
+        height: 400px !important;
+    }
+
+    /* About Us - Tablet */
+    .mission_text {
+        margin-top: 30px;
+        text-align: justify !important;
+        width: 100%;
+    }
+
+    .mission_image img {
+        width: 100%;
+    }
+
+    .inn-abt-img img {
+        width: 100%;
+        height: 860px;
+    }
+
+    .inner-about .col-lg-6 {
+        margin-bottom: 30px;
+    }
+
+    /* Product Detail - Tablet */
+    .productdetailfor .slick-track,
+    .productdetailnav .slick-track {
+        display: flex;
+        justify-content: center;
+    }
+
+    .pr-heading h2 {
+        font-size: 30px;
+    }
+
+    /* Cart/Contact - Tablet */
+    .contact_detail_box {
+        margin-bottom: 30px;
+        padding: 40px 10px;
+    }
+
+    /* Account/Checkout - Tablet */
+    .log-in-wrap {
+        margin-bottom: 30px;
+        padding: 20px 10px;
+    }
+
+    .cart_sidebar {
+        margin-top: 0;
+    }
+
+    .col-12.col-md-12.col-lg-12.mt-5 {
+        margin: 0 !important;
+    }
+
+    h4 {
+        font-size: 26px;
+        line-height: 1.2;
+        color: #252525;
+        font-weight: 500;
+    }
+
+    h3 {
+        font-size: 40px;
+        line-height: 1.2;
+        color: #fff;
+        font-weight: 600;
+    }
+
+    .add-to-cart .table>thead>tr>th {
+        border-bottom: 0;
+        padding-left: 15px;
+        padding-bottom: 25px;
+        padding-top: 25px;
+        text-align: left;
+        white-space: nowrap;
+    }
+
+    .total-section {
+        border: 1px solid #eeeeee;
+        padding: 27px 10px;
+        background-color: #f7f7f7;
+        border-radius: 14px;
+    }
+
+    .ship-estimate {
+        padding: 10px 10px;
+        margin-top: 10px;
+        border: 1px solid #eeeeee;
+        background-color: #f7f7f7;
+        border-radius: 14px;
+    }
+
+    li.color-change {
+        color: #000;
+        text-transform: uppercase;
+        font-size: 22px;
+        font-weight: 500;
+        margin: 0;
+        font-family: 'Cutmark-Medium';
+    }
+
+    .ship-estimate li {
+        text-transform: uppercase;
+        font-size: 22px;
+        font-weight: 400;
+        margin: 0 0 10px 0;
+        font-family: 'Cutmark-Medium';
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    h1 {
+        font-size: 40px;
+    }
+
+    h2 {
+        font-size: 43px;
+    }
+
+    h3 {
+        font-size: 30px;
+    }
+
+    h4 {
+        font-size: 25px;
+    }
+
+    h5 {}
+
+    h6 {
+        font-size: 17px;
+    }
+
+    p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    section.header .col-lg-8.col-md-12.col-sm-12 {
+        width: 100%;
+        order: 3;
+    }
+
+    section.header .col-lg-2.col-md-6.col-sm-6 {
+        order: 2;
+    }
+
+    .hdr_btn {
+        display: flex;
+        align-items: center;
+        justify-content: end;
+    }
+
+    .inner-banner img.banner-img {
+        height: 400px !important;
+    }
+
+    .banner_text h1 {
+        font-size: 35px;
+    }
+
+    /* Trend Section - Stacked/Grid for Tablet */
+    .trend-box {
+        padding: 50px 0;
+        flex-wrap: wrap;
+    }
+
+    .trend-column {
+        width: 50%;
+        left: 0 !important;
+        top: 0 !important;
+        margin-bottom: 30px;
+        padding: 0 15px;
+    }
+
+    .trend-column .trend-card {
+        position: relative !important;
+        bottom: 0 !important;
+        width: 100%;
+        opacity: 1 !important;
+        /* Force show */
+    }
+
+    .trend-main-text {
+        position: relative;
+        width: 100%;
+        text-align: center;
+        left: 0;
+        bottom: 20px;
+        margin-top: 20px;
+    }
+
+    /* Product Grid */
+    .product-card {
+        margin-bottom: 0;
+    }
+
+    /* Footer */
+    footer .col-lg-3,
+    footer .col-md-6 {
+        margin-bottom: 30px;
+    }
+
+    .user-actions ul {
+        gap: 10px;
+    }
+
+    .product-card-img img.product-img {
+        height: 350px;
+    }
+
+    /* Products - Tablet/Mobile Stack */
+    .catogeriesbox {
+        margin-bottom: 30px;
+    }
+
+    .prod-heading h4 {
+        margin-top: 30px;
+    }
+
+    /* Product Detail */
+    .productdetailfor {
+        margin-bottom: 20px;
+    }
+
+    .pr-heading h2 {
+        font-size: 25px;
+        margin-top: 20px;
+    }
+
+    /* Contact Mobile Landscape */
+    .contact_detail_box {
+        margin-bottom: 20px;
+    }
+
+    /* Cart Mobile Landscape */
+    .table-responsive {
+        border: 0;
+    }
+
+    .cart-counter {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    /* Account/Checkout Mobile Landscape */
+    .log-in-wrap {
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+
+    .cart_sidebar {
+        margin-top: 30px;
+    }
+
+    /* Category Mobile Landscape */
+    .categ-card .categ-box-img {
+        height: 300px;
+    }
+
+
+    .trend-main-text a {
+        justify-self: center;
+    }
+
+    .test-main-bx {
+        padding: 30px 20px;
+    }
+
+    .header-socials-links ul {
+        justify-content: center;
+        margin: 0 0 10px 0;
+    }
+
+    /* About Us - Mobile Landscape */
+    .inn-abt-img img {
+        width: 100%;
+        height: 860px;
+    }
+
+    .inner-about .col-12 {
+        margin-bottom: 0;
+        margin: 0 !important;
+    }
+
+    .mission_image img {
+        width: 100%;
+    }
+
+    .mission_text {
+        margin-top: 20px;
+        text-align: justify !important;
+        width: 100%;
+    }
+
+    /* Fix potential Mission ordering if needed, but stacked is default */
+    section.mission_sec .row.align-items-center {
+        display: flex;
+    }
+
+    .inn-abt-img {
+        width: 100%;
+    }
+
+    .showinglist {
+        justify-content: start !important;
+    }
+
+    .pr-heading h3 {
+        color: #222222;
+        font-family: 'Cutmark';
+        font-size: 29px;
+        margin: 0;
+        white-space: nowrap;
+    }
+
+    ul#pills-tab {
+        gap: 10px;
+        justify-content: center;
+    }
+
+    .add-to-cart .table>thead>tr>th {
+        border-bottom: 0;
+        padding-left: 15px;
+        padding-bottom: 25px;
+        padding-top: 25px;
+        text-align: left;
+        white-space: nowrap;
+    }
+
+    .contact-sec-h h6 {
+        font-size: 40px;
+        line-height: 45px;
+        color: #000000;
+        font-weight: 400;
+        font-family: 'Cutmark';
+        margin-bottom: 40px !important;
+    }
+
+    .log-in-wrap h2 {
+        margin: 0 0 20px 0;
+        text-align: left;
+        color: #000;
+        font-size: 25px;
+        text-transform: uppercase;
+        line-height: 50px;
+        font-family: 'Cutmark';
+        font-weight: 500;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 520px) and (max-width: 767px) {
+    h1 {
+        font-size: 45px;
+    }
+
+    h2 {
+        font-size: 43px;
+    }
+
+    h3 {
+        font-size: 30px;
+    }
+
+    h4 {
+        font-size: 25px;
+    }
+
+    h6 {
+        font-size: 17px;
+    }
+
+    p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    section.header .nav.stroke {
+        display: none;
+    }
+
+    .hdr_logo a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .hdr_btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 15px;
+    }
+
+    .slicknav_nav a:hover,
+    .slicknav_nav a.active {
+        background: #851112;
+        color: #fff;
+    }
+
+    .auto {
+        display: block;
+        margin: 0 auto;
+        width: 80%;
+    }
+
+    img.banner-img {
+        height: 400px;
+        margin-bottom: 20px;
+        object-position: top;
+    }
+
+    .banner_text {
+        padding: 30px 0;
+    }
+
+    /* Trend Section - Stacked for Mobile Landscape */
+    .trend-box {
+        padding: 30px 30px;
+        flex-wrap: wrap;
+    }
+
+    .trend-column {
+        width: 100%;
+        left: 0 !important;
+        top: 0 !important;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    .trend-column .trend-card {
+        position: relative !important;
+        bottom: 0 !important;
+        width: 100%;
+        opacity: 1 !important;
+    }
+
+    .trend-main-text {
+        position: relative;
+        width: 100%;
+        text-align: center;
+        left: 0;
+        bottom: 0;
+        margin-top: 20px;
+    }
+
+    /* Product Grid */
+    .product-card {
+        margin-bottom: 30px;
+    }
+
+    .product-card-img img.product-img {
+        height: 400px;
+    }
+
+    /* Categories */
+    .categ-card img.categ-box-img {
+        height: 300px;
+    }
+
+    .footer-quick {
+        padding: 0;
+        position: relative;
+        margin: 10px 0;
+    }
+
+    .footer-quick::before {
+        width: 0;
+    }
+
+    .footer-quick::after {
+        width: 0;
+    }
+
+    .ftr_logo p {
+        font-size: 12px;
+        width: 100%;
+    }
+
+    .footer-txt-heading h5 {
+        margin: 30px 0 10px 0;
+    }
+
+    .quick_links ul {
+        column-count: 1;
+        margin: 0;
+    }
+
+    .quick_links ul li a {
+        margin: 0 0 2px 0;
+        text-transform: capitalize;
+    }
+
+    .header-socials-links ul {
+        justify-content: center;
+        margin: 10px 0;
+    }
+
+    .mission_text.mission_text1 {
+        margin: 0 0 50px 0 !important;
+    }
+
+    .mission_text {
+        width: 100%;
+        margin: 50px 0 0 0 !important;
+        text-align: justify !important;
+    }
+
+    .inner-banner img.banner-img {
+        height: 340px !important;
+        object-position: top;
+    }
+
+    .inn-abt-img img {
+        height: 466px;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .description .nav {
+        display: flex;
+        align-items: center;
+        border-bottom: 1px solid #e3e3e3;
+        padding-bottom: 50px;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .comment-box {
+        padding: 20px;
+    }
+
+    .tab-content>.active {
+        display: block;
+        font-size: 14px;
+        color: #636363;
+        font-family: 'Montserrat';
+        line-height: 1.7;
+        font-weight: 400;
+    }
+
+    .pr-heading h3 {
+        color: #222222;
+        font-family: 'Cutmark';
+        font-size: 29px;
+        margin: 0;
+        white-space: nowrap;
+    }
+
+    /* Cart Mobile Portrait */
+    .table_width {
+        width: 100%;
+        overflow-x: auto;
+    }
+
+    .table-responsive {
+        width: 800px;
+        /* Force scroll */
+    }
+
+    .cart-counter {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .add-to-cart .table>thead>tr>th {
+        border-bottom: 0;
+        padding-left: 15px;
+        padding-bottom: 25px;
+        padding-top: 25px;
+        text-align: left;
+        white-space: nowrap;
+    }
+
+    .contact-sec-h h6 {
+        font-size: 30px;
+        line-height: 45px;
+        color: #000000;
+        font-weight: 400;
+        font-family: 'Cutmark';
+        margin-bottom: 40px !important;
+    }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 519px) {
+
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+
+    h3 {
+        font-size: 25px;
+    }
+
+    h4 {
+        font-size: 22px;
+    }
+
+    h5 {}
+
+    h6 {
+        font-size: 16px;
+    }
+
+    p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    section.header .nav.stroke {
+        display: none;
+    }
+
+    .hdr_logo a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .hdr_btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .slicknav_nav a:hover,
+    .slicknav_nav a.active {
+        background: #851112;
+        color: #fff;
+    }
+
+    .auto {
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    img.banner-img {
+        height: 350px;
+        margin-bottom: 15px;
+        object-position: top;
+    }
+
+    .banner_text {
+        padding: 20px 0;
+    }
+
+    section.banner_sec .col-xl-4.col-lg-4.col-md-4.col-sm-12.col-12:nth-child(1) {
+        order: 2;
+    }
+
+    section.banner_sec .col-xl-4.col-lg-4.col-md-4.col-sm-12.col-12:nth-child(2) {
+        order: 1;
+    }
+
+    .product-card-img img.product-img {
+        height: 350px;
+    }
+
+    .product-card {
+        margin: 15px 0;
+    }
+
+    /* Trend Section - Stacked for Mobile Portrait */
+    .trend-box {
+        padding: 30px 30px;
+        flex-wrap: wrap;
+    }
+
+    .trend-column {
+        width: 100%;
+        left: 0 !important;
+        top: 0 !important;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    .trend-column .trend-card {
+        position: relative !important;
+        bottom: 0 !important;
+        width: 100%;
+        opacity: 1 !important;
+    }
+
+    .trend-main-text {
+        position: relative;
+        width: 100%;
+        text-align: center;
+        left: 0;
+        bottom: 20px;
+        margin: 20px 0;
+    }
+
+
+    .trend-main-text a {
+        justify-self: center;
+    }
+
+    img.categ-box-img {
+        height: 350px;
+        object-position: right;
+    }
+
+
+    .categ-box-text {
+        position: absolute;
+        z-index: 1;
+        top: 20px !important;
+        left: 50% !important;
+        transform: translateX(-50%) !important;
+        text-align: center !important;
+    }
+
+    .test-main-bx {
+        padding: 30px 20px;
+    }
+
+    .trend-card-image img {
+        height: 300px;
+        object-position: top;
+    }
+
+    .footer-quick {
+        padding: 0;
+        position: relative;
+        margin: 10px 0;
+    }
+
+    .footer-quick::before {
+        width: 0;
+    }
+
+    .footer-quick::after {
+        width: 0;
+    }
+
+    .ftr_logo p {
+        font-size: 12px;
+        width: 100%;
+    }
+
+    .footer-txt-heading h5 {
+        margin: 30px 0 10px 0;
+    }
+
+    .quick_links ul {
+        column-count: 1;
+        margin: 0;
+    }
+
+    .quick_links ul li a {
+        margin: 0 0 2px 0;
+        text-transform: capitalize;
+    }
+
+    .header-socials-links ul {
+        justify-content: center;
+        margin: 10px 0;
+    }
+
+    /* About Us - Mobile Portrait */
+    .inn-abt-img img {
+        width: 100%;
+        margin-bottom: 20px;
+        height: 400px;
+    }
+
+    .mission_image img {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    /* Products Mobile Portrait */
+    .catogeriesbox {
+        margin-bottom: 20px;
+    }
+
+    .showinglist {
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .first-item {
+        width: 100%;
+        text-align: start !important;
+    }
+
+    .sort-options {
+        gap: 10px;
+        align-items: center;
+    }
+
+    .sort-options label {
+        margin-bottom: 5px;
+    }
+
+    /* Product Detail Mobile Portrait */
+    .productdetailfor img,
+    .productdetailsmallportion img {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .pr-heading h2 {
+        font-size: 22px;
+        margin-top: 15px;
+    }
+
+
+    .pr-heading h2 {
+        font-size: 22px;
+        margin-top: 15px;
+    }
+
+
+    .mission_text {
+        text-align: justify !important;
+        width: 100%;
+    }
+
+    .mission_sec .col-lg-5 {
+        order: 1;
+    }
+
+    .mission_sec .col-lg-7 {
+        order: 2;
+    }
+
+    .mission_text.mission_text1 {
+        margin: 50px 0 0 0 !important;
+    }
+
+
+    .inner-banner img.banner-img {
+        height: 340px !important;
+        object-position: top;
+    }
+
+    /* Contact Mobile Portrait */
+    .contact_detail_box {
+        margin-bottom: 20px;
+    }
+
+    /* Cart Mobile Portrait */
+    .table_width {
+        width: 100%;
+        overflow-x: auto;
+    }
+
+    .table-responsive {
+        width: 800px;
+        /* Force scroll */
+    }
+
+    .cart-counter {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    /* Account/Checkout Mobile Portrait */
+    .log-in-wrap {
+        padding: 15px;
+    }
+
+    .cart_sidebar {
+        margin-top: 20px;
+    }
+
+    .description .nav {
+        display: flex;
+        align-items: center;
+        border-bottom: 1px solid #e3e3e3;
+        padding-bottom: 50px;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .comment-box {
+        padding: 20px;
+    }
+
+    .tab-content>.active {
+        display: block;
+        font-size: 14px;
+        color: #636363;
+        font-family: 'Montserrat';
+        line-height: 1.7;
+        font-weight: 400;
+    }
+
+    .add-to-cart .table>thead>tr>th {
+        border-bottom: 0;
+        padding-left: 15px;
+        padding-bottom: 25px;
+        padding-top: 25px;
+        text-align: left;
+        white-space: nowrap;
+    }
+
+    .cart_sidebar button {
+        border: none;
+        padding: 12px 10px;
+        color: #fff;
+        border-radius: 0;
+        background: #171717;
+        font-size: 19px;
+        font-family: montserrat;
+        margin-top: 20px;
+        display: block;
+        text-transform: uppercase;
+    }
+
+    .contact-sec-h h6 {
+        font-size: 30px;
+        line-height: 45px;
+        color: #000000;
+        font-weight: 400;
+        font-family: 'Cutmark';
+        margin-bottom: 40px !important;
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 299px) {}
+
+html {
+    overflow-x: hidden;
+}
+
+/*Media Query End*/

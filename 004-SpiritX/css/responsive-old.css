@@ -1,0 +1,253 @@
+/*Media Query Start*/
+
+@media only screen and (min-width: 1366px) and (max-width: 1900px) {
+    section.categ-sec.inner-categ-sec.sec.long-sec .container {
+        max-width: 90vw !important;
+    }
+
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1365px) {}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    section.header .col-lg-8.col-md-12.col-sm-12 {
+        width: 100%;
+        order: 3;
+    }
+
+    section.header .col-lg-2.col-md-6.col-sm-6 {
+        order: 2;
+        width: 50%;
+    }
+
+    .hdr_btn {
+        display: flex;
+        align-items: center;
+        justify-content: end;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    h1 {
+        font-size: 40px;
+    }
+
+    h2 {
+        font-size: 35px;
+    }
+
+    h3 {
+        font-size: 30px;
+    }
+
+    h4 {
+        font-size: 25px;
+    }
+
+    h5 {
+        font-size: 20px;
+    }
+
+    h6 {
+        font-size: 17px;
+    }
+
+    p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    section.header .col-lg-8.col-md-12.col-sm-12 {
+        width: 100%;
+        order: 3;
+    }
+
+    section.header .col-lg-2.col-md-6.col-sm-6 {
+        order: 2;
+    }
+
+    .hdr_btn {
+        display: flex;
+        align-items: center;
+        justify-content: end;
+    }
+
+    img.banner-img {
+        height: 500px;
+    }
+
+    .banner_text h1 {
+        font-size: 35px;
+    }
+}
+
+@media only screen and (min-width: 520px) and (max-width: 767px) {
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 35px;
+    }
+
+    h3 {
+        font-size: 30px;
+    }
+
+    h4 {
+        font-size: 25px;
+    }
+
+    h5 {
+        font-size: 20px;
+    }
+
+    h6 {
+        font-size: 17px;
+    }
+
+    p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    section.header .nav.stroke {
+        display: none;
+    }
+
+    .hdr_logo a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .hdr_btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .slicknav_nav a:hover {
+        background: #851112;
+        color: #fff;
+    }
+
+    .slicknav_nav a.active {
+        background: #851112;
+        color: #fff;
+    }
+
+    .auto {
+        display: block;
+        margin: 0 auto;
+        width: 80%;
+    }
+
+    img.banner-img {
+        height: 400px;
+        margin-bottom: 20px;
+    }
+
+    .banner_text {
+        padding: 30px 0;
+    }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 519px) {
+
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 35px;
+    }
+
+    h3 {
+        font-size: 30px;
+    }
+
+    h4 {
+        font-size: 25px;
+    }
+
+    h5 {
+        font-size: 20px;
+    }
+
+    h6 {
+        font-size: 17px;
+    }
+
+    p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    section.header .nav.stroke {
+        display: none;
+    }
+
+    .hdr_logo a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .hdr_btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .slicknav_nav a:hover {
+        background: #851112;
+        color: #fff;
+    }
+
+    .slicknav_nav a.active {
+        background: #851112;
+        color: #fff;
+    }
+
+    .auto {
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    img.banner-img {
+        height: 350px;
+        margin-bottom: 15px;
+        object-position: top;
+    }
+
+    .banner_text {
+        padding: 20px 0;
+    }
+
+    section.banner_sec .col-xl-4.col-lg-4.col-md-4.col-sm-12.col-12:nth-child(0) {
+        order: 2;
+    }
+
+    section.banner_sec .col-xl-4.col-lg-4.col-md-4.col-sm-12.col-12:nth-child(1) {
+        order: 1;
+    }
+
+    .product-card-img img.product-img {
+        height: 350px;
+    }
+
+    .product-card {
+        margin: 15px 0;
+    }
+
+}
+
+@media only screen and (min-width: 0px) and (max-width: 299px) {}
+
+html {
+    overflow-x: hidden;
+}
+
+/*Media Query End*/
