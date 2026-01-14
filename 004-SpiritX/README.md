@@ -66,7 +66,8 @@ SpiritX/
 
 ## Contact
 
-- 📞 **Phone**: (00) 123 456 7890
-- ✉️ **Email**: info@spiritx.com
+- 📞 **Phone**:  0319-2020749  
+- ✉️ **Email**: wasay45456@gmail.com  
 
 ---
+
