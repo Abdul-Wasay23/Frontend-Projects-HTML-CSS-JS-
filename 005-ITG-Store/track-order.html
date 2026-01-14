@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noindex,nofollow,noarchive" />
+    <!-- Bootstrap CSS -->
+    <link href="css/animate.css" rel="stylesheet">
+    <link href="fontawesome5/css/all.min.css" rel="stylesheet">
+    <link href="slick/slick-theme.css" rel="stylesheet" type="text/css">
+    <link href="slick/slick.css" rel="stylesheet" type="text/css">
+    <link href="css/slicknav.css" rel="stylesheet" type="text/css">
+    <link href="css/fancybox.css" rel="stylesheet" type="text/css">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+    <link href="css/css-new.css" rel="stylesheet">
+    <link href="css/wp-custom.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Track Order - ITG Store</title>
+</head>
+
+<body>
+
+
+    <div class="cursor"></div>
+
+    <div id="smooth-wrapper">
+        <div id="smooth-content">
+
+            <div id="Header"></div>
+            <!-- banner start -->
+            <section class="banner_sec inner_banner_sec wow fadeInUp">
+                <div class="container-fluid hei p-0">
+                    <div class="banner-box inner-banner-box hei">
+                        <div class="row hei">
+                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 hei">
+                                <div class="banner_text inner_banner_text hei">
+                                    <h1>
+                                        Track Order
+                                    </h1>
+                                    <p>
+                                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                                        aliquip ex ea
+                                        commodo consequat.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 hei">
+                                <div class="banner-image-box">
+                                    <img src="images/inner-banner.jpg" alt="banner-image" class="banner-image">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- banner end -->
+
+            <section class="track-sec sec">
+                <div class="container">
+                    <div class="row ">
+                        <div class="col-lg-12">
+                            <div class="heading text_center topbar ">
+                                <h2>Enter Your Order Id</h2>
+                                <p class=" auto">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                                    nisi
+                                    ut
+                                    aliquip ex ea commodo consequat.</p>
+                                <form action="" class="search-form order-form">
+
+                                    <input type="text" class="form-control search-input" placeholder="000000">
+                                    <button type="submit" class="search-button">
+                                        <i class="fa-solid fa-arrow-right"></i>
+                                    </button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col-lg-10">
+                            <div class="order-map">
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d46830151.11795828!2d-119.8093025!3d44.24236485!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54eab584e432360b%3A0x1c3bb99243deb742!2sUnited%20States!5e0!3m2!1sen!2s!4v1746107702702!5m2!1sen!2s"
+                                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <div id="Footer"></div>
+
+
+            <script src="js/jquery-3.6.0.min.js"></script>
+            <script src="js/wow.js"></script>
+            <script src="slick/slick.js"></script>
+            <script src="slick/slick.min.js"></script>
+            <script src="js/jquery.slicknav.js"></script>
+            <script src="js/fancybox.js"></script>
+            <script src="js/font-awesome.js"></script>
+            <script src="js/bootstrap.js"></script>
+            <script src="js/font.js"></script>
+            <script src="js/custom.js"></script>
+            <script src="js/ScrollSmoother.min.js"></script>
+
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+            <script src="js/ScrollSmoother.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
+            <script>
+                let scrollFunc = ScrollTrigger.getScrollFunc(window),
+                    scroll, scroll2;
+
+
+                // create the smooth scroller FIRST!
+                let smoother = ScrollSmoother.create({
+                    smooth: 2.5, // seconds it takes to "catch up" to native scroll position
+                    effects: true, // look for data-speed and data-lag attributes on elements and animate accordingly
+                    smoothTouch: 0.1,
+                });
+
+            </script>
+
+            <script>
+                const cursor = document.querySelector('.cursor');
+
+                document.addEventListener('mousemove', e => {
+                    cursor.setAttribute("style", "top: " + (e.pageY - 10) + "px; left: " + (e.pageX - 10) + "px;")
+                })
+
+                document.addEventListener('click', () => {
+                    cursor.classList.add("expand");
+
+                    setTimeout(() => {
+                        cursor.classList.remove("expand");
+                    }, 500)
+                })
+            </script>
+
+</body>
+
+</html>
