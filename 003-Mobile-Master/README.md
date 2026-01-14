@@ -64,9 +64,9 @@ Mobile-Master/
 
 ## Contact
 
-- 📞 **Phone**: 123-456-789
-- ✉️ **Email**: demolink@gmail.com
-- 🌐 **Support**: 24/7 Available
+- 📞 Phone: 0319-2020749  
+- ✉️ Email: wasay45456@gmail.com  
 
 ---
+
 
