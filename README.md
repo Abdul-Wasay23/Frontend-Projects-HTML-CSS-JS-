@@ -61,8 +61,8 @@ _Projects related to personal branding and portfolios will be added here._
 
 ---
 
-## 📄 Landing Pages
-_Landing page projects will be added here._
+## 📊 Dashboards
+_Web dashboards and interactive panels will be added here._
 
 ---
 
