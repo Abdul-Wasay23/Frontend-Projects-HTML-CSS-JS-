@@ -38,6 +38,12 @@ Collection of frontend projects built using **HTML, CSS, and JavaScript**, focus
   | [⬇️ Download](https://github.com/Abdul-Wasay23/Frontend-Projects-HTML-CSS-JS-/raw/main/001-MedRx-Management-Llc/001-MedRx-Management-Llc.zip)
   | [📘 README](https://github.com/Abdul-Wasay23/Frontend-Projects-HTML-CSS-JS-/blob/main/001-MedRx-Management-Llc/README.md)
 
+- **006-Quality-First-Assistance-Group**  
+  [👁️ View](https://github.com/Abdul-Wasay23/Frontend-Projects-HTML-CSS-JS-/blob/main/006-Quality-First-Assistance-Group/006-QFAG-Desktop-View.jpg)
+  | [💻 Code](https://github.com/Abdul-Wasay23/Frontend-Projects-HTML-CSS-JS-/tree/main/006-Quality-First-Assistance-Group)
+  | [⬇️ Download](https://github.com/Abdul-Wasay23/Frontend-Projects-HTML-CSS-JS-/raw/main/006-Quality-First-Assistance-Group/006-Quality-First-Assistance-Group.zip)
+  | [📘 README](https://github.com/Abdul-Wasay23/Frontend-Projects-HTML-CSS-JS-/blob/main/006-Quality-First-Assistance-Group/README.md)
+
 ---
 
 ## 🏢 Business & Corporate
