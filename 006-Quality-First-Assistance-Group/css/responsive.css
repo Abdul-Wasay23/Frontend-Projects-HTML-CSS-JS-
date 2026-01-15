@@ -1,0 +1,539 @@
+/*Media Query Start*/
+
+@media only screen and (min-width: 1600px) and (max-width: 2000px) {
+  .long-sec .container-xxl,
+  .long-sec .container-xl,
+  .long-sec .container-lg,
+  .long-sec .container-md,
+  .long-sec .container-sm,
+  .long-sec .container {
+    max-width: 85vw;
+  }
+}
+
+@media only screen and (min-width: 1366px) and (max-width: 1500px) {
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1365px) {
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  section.header .col-lg-8.col-md-12.col-sm-12 {
+    width: 100%;
+    order: 3;
+  }
+
+  section.header .col-lg-2.col-md-6.col-sm-6 {
+    order: 2;
+    width: 50%;
+  }
+
+  .hdr_btn {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  h1 {
+    font-size: 40px;
+  }
+
+  h2 {
+    font-size: 35px;
+  }
+
+  h3 {
+    font-size: 30px;
+  }
+
+  h4 {
+    font-size: 25px;
+  }
+
+  h5 {
+    font-size: 20px;
+  }
+
+  h6 {
+    font-size: 17px;
+  }
+
+  p {
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  section.header .col-lg-8.col-md-12.col-sm-12 {
+    width: 100%;
+    order: 3;
+  }
+
+  section.header .col-lg-2.col-md-6.col-sm-6 {
+    order: 2;
+  }
+
+  .hdr_btn {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+  }
+  ul#menu {
+    padding: 10px 0 0 0;
+  }
+
+  section.banner_sec {
+    padding-top: 200px;
+  }
+  .col-xl-6.col-lg-6.col-md-12.col-sm-12.col-12 {
+    order: 1;
+  }
+  .col-xl-3.col-lg-3.col-md-12.col-sm-12.col-12:first-child {
+    order: 2;
+  }
+  .col-xl-3.col-lg-3.col-md-12.col-sm-12.col-12:last-child {
+    order: 3;
+  }
+}
+
+@media only screen and (min-width: 520px) and (max-width: 767px) {
+  h1 {
+    font-size: 40px;
+  }
+
+  h2 {
+    font-size: 35px;
+  }
+
+  h3 {
+    font-size: 25px;
+  }
+
+  h4 {
+    font-size: 20px;
+  }
+
+  h5 {
+    font-size: 20px;
+  }
+
+  h6 {
+    font-size: 17px;
+  }
+
+  p {
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  section.header .nav.stroke {
+    display: none;
+  }
+
+  .hdr_logo a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+  }
+
+  .hdr_btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+  }
+  .slicknav_nav a:hover {
+    background: #fff;
+    color: #790222;
+  }
+
+  .slicknav_nav a.active {
+    background: #fff;
+    color: #790222;
+  }
+  .banner-text h1 {
+    width: 100%;
+  }
+
+  section.header {
+    position: unset;
+  }
+  .banner_sec {
+    padding-top: 50px;
+  }
+  .banner-client-box {
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .banner-left-card-text {
+    text-align: center;
+  }
+  .banner-left-box {
+    gap: 10px;
+  }
+  section.header .col-lg-8.col-md-12.col-sm-12 {
+    display: none;
+  }
+  .btm-para p {
+    color: #fff;
+    font-size: 14px;
+  }
+  .banner-text {
+    margin: 10px 0;
+  }
+
+  .about_text {
+    margin: 10px 0;
+  }
+  img.banner-right-image {
+    height: 350px;
+  }
+
+  .care-card-text {
+    padding: 10px;
+    justify-content: center;
+  }
+
+  a.care-card-icon {
+    width: 40px;
+    height: 40px;
+  }
+
+  img.care-icon {
+    width: 15px;
+  }
+
+  img.choose-img {
+    margin: 10px 0;
+  }
+
+  .sec {
+    padding: 40px 0 !important;
+  }
+
+  .team-button {
+    justify-content: center;
+  }
+
+  img.team-card-img {
+    height: 400px;
+  }
+
+  .testi-heading p {
+    width: 100%;
+  }
+
+  .test-main-bx {
+    padding: 15px 10px;
+  }
+
+  .test-stars ul li a i {
+    font-size: 14px;
+  }
+
+  button.slick-next.slick-arrow {
+    right: 0;
+    background: #fff;
+  }
+
+  button.slick-prev.slick-arrow {
+    left: 0;
+    top: 50%;
+    z-index: 999;
+    background: #fff;
+  }
+  .slick-prev:before,
+  .slick-next:before {
+    color: #790222;
+  }
+  .quick-links.links ul {
+    column-count: 1;
+  }
+  .links a {
+    color: #fff;
+    margin: 0 0 6px 0;
+    display: flex;
+    opacity: 0.7;
+  }
+  .contact-box {
+    flex-direction: column;
+    gap: 0;
+  }
+  a.quote {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 40px;
+    border: 1px solid #00000030;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    color: #7e0d20;
+    font-size: 16px;
+    border-radius: 50%;
+  }
+  img.testi-person {
+    width: 50px;
+    height: 50px;
+  }
+  .banner-client-box h6 br {
+    display: none;
+  }
+  .banner-right-card-text {
+    width: 120px;
+    height: 120px;
+  }
+
+  a.arrow-circle {
+    height: 35px;
+    width: 35px;
+  }
+  p.w-70 {
+    width: 100%;
+  }
+  .team-heading {
+    text-align: center;
+  }
+  .care-para {
+    text-align: center;
+  }
+
+  .care-heading {
+    text-align: center;
+  }
+
+  .about_text {
+    text-align: center;
+  }
+  footer h4 {
+    margin: 30px 0 10px 0;
+  }
+  .ftr-logo {
+    padding: 30px 0 10px 0;
+  }
+  .slicknav_menu {
+    background: #790222;
+  }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 519px) {
+  h1 {
+    font-size: 23px;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
+
+  h3 {
+    font-size: 25px;
+  }
+
+  h4 {
+    font-size: 17px;
+  }
+
+  h5 {
+    font-size: 20px;
+  }
+
+  h6 {
+    font-size: 17px;
+  }
+
+  p {
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  section.header .nav.stroke {
+    display: none;
+  }
+
+  .hdr_logo a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+  }
+
+  .hdr_btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+  }
+  .slicknav_nav a:hover {
+    background: #fff;
+    color: #790222;
+  }
+
+  .slicknav_nav a.active {
+    background: #fff;
+    color: #790222;
+  }
+  .banner-text h1 {
+    width: 100%;
+  }
+
+  section.header {
+    position: unset;
+  }
+  .banner_sec {
+    padding-top: 50px;
+  }
+  .banner-client-box {
+    width: 100%;
+    flex-direction: row;
+  }
+  .banner-left-card-text {
+    text-align: center;
+  }
+  .banner-left-box {
+    gap: 10px;
+  }
+  .banner-text {
+    margin: 10px 0;
+  }
+
+  .about_text {
+    margin: 10px 0;
+  }
+
+  .care-card-text {
+    padding: 10px;
+  }
+
+  a.care-card-icon {
+    width: 40px;
+    height: 40px;
+  }
+
+  img.care-icon {
+    width: 15px;
+  }
+
+  img.choose-img {
+    margin: 10px 0;
+  }
+
+  .sec {
+    padding: 40px 0 !important;
+  }
+
+  .team-button {
+    justify-content: center;
+  }
+
+  img.team-card-img {
+    height: 400px;
+  }
+
+  .testi-heading p {
+    width: 100%;
+  }
+
+  .test-main-bx {
+    padding: 15px 10px;
+  }
+
+  .test-stars ul li a i {
+    font-size: 14px;
+  }
+
+  button.slick-next.slick-arrow {
+    right: 0;
+    background: #fff;
+  }
+
+  button.slick-prev.slick-arrow {
+    left: 0;
+    top: 50%;
+    z-index: 999;
+    background: #fff;
+  }
+  .slick-prev:before,
+  .slick-next:before {
+    color: #790222;
+  }
+  .quick-links.links ul {
+    column-count: 1;
+  }
+  .links a {
+    color: #fff;
+    margin: 0 0 6px 0;
+    display: flex;
+    opacity: 0.7;
+  }
+  .contact-box {
+    flex-direction: column;
+    gap: 0;
+  }
+  a.quote {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 40px;
+    border: 1px solid #00000030;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    color: #7e0d20;
+    font-size: 16px;
+    border-radius: 50%;
+  }
+  img.testi-person {
+    width: 50px;
+    height: 50px;
+  }
+  .banner-client-box h6 br {
+    display: none;
+  }
+  .banner-right-card-text {
+    width: 120px;
+    height: 120px;
+  }
+
+  a.arrow-circle {
+    height: 35px;
+    width: 35px;
+  }
+  p.w-70 {
+    width: 100%;
+  }
+  .team-heading {
+    text-align: center;
+  }
+  .care-para {
+    text-align: center;
+  }
+
+  .care-heading {
+    text-align: center;
+  }
+
+  .about_text {
+    text-align: center;
+  }
+  footer h4 {
+    margin: 30px 0 10px 0;
+  }
+  .ftr-logo {
+    padding: 30px 0 10px 0;
+  }
+  .slicknav_menu {
+    background: #790222;
+  }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 299px) {
+}
+
+/*Media Query End*/
