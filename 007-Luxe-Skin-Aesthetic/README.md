@@ -1,21 +1,18 @@
 # Luxe Skin Aesthetic Website
 
-This project is a premium aesthetic clinic website rebranded from "Glow Face Aesthetic" to **Luxe Skin Aesthetic**.
+This project is a premium aesthetic clinic website **Luxe Skin Aesthetic**.
 
-## Rebranding Overview
+## Overview
 
-The rebranding included the following major changes:
-- **Brand Name:** All instances of "Glow Face Aesthetic" were replaced with "Luxe Skin Aesthetic" across all pages.
-- **Logo:** Updated the primary logo path to `images/new-logo.png`.
-- **Service Professionalization:** Updated service names to more premium alternatives:
+- **Brand Name:** "Luxe Skin Aesthetic" .
+- **Service Professionalization:** Service names :
   - Anti-Wrinkle Treatments -> **Facial Rejuvenation & Anti-Wrinkle**
   - Dermal Filler Treatments -> **Premium Dermal Fillers**
   - Skin Rejuvenation Treatments -> **Advanced Skin Revitalization**
   - Anti-Ageing Treatments -> **Age-Defying Solutions**
   - Hair loss treatments -> **Elite Hair Restoration**
   - Body Treatments -> **Professional Body Sculpting**
-- **Content Updates:** Replaced various "Lorem Ipsum" and placeholder text with professional descriptions of services and clinic identity.
-- **Contact Information:** Updated with professional London-based contact details (123 Harley Street).
+
 
 ## Project Structure
 
@@ -51,3 +48,4 @@ The rebranding included the following major changes:
 - ✉️ Email: wasay45456@gmail.com  
 
 © 2026 Luxe Skin Aesthetic. All rights reserved.
+
