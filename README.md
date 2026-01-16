@@ -44,6 +44,12 @@ Collection of frontend projects built using **HTML, CSS, and JavaScript**, focus
   | [⬇️ Download](https://github.com/Abdul-Wasay23/Frontend-Projects-HTML-CSS-JS-/raw/main/006-Quality-First-Assistance-Group/006-Quality-First-Assistance-Group.zip)
   | [📘 README](https://github.com/Abdul-Wasay23/Frontend-Projects-HTML-CSS-JS-/blob/main/006-Quality-First-Assistance-Group/README.md)
 
+- **007-Luxe-Skin-Aesthetic**  
+  [👁️ View](https://github.com/Abdul-Wasay23/Frontend-Projects-HTML-CSS-JS-/blob/main/007-Luxe-Skin-Aesthetic/007-Luxe-Skin-Aesthetic-View.jpg)
+  | [💻 Code](https://github.com/Abdul-Wasay23/Frontend-Projects-HTML-CSS-JS-/tree/main/007-Luxe-Skin-Aesthetic)
+  | [⬇️ Download](https://github.com/Abdul-Wasay23/Frontend-Projects-HTML-CSS-JS-/raw/main/007-Luxe-Skin-Aesthetic/007-Luxe-Skin-Aesthetic.zip)
+  | [📘 README](https://github.com/Abdul-Wasay23/Frontend-Projects-HTML-CSS-JS-/blob/main/007-Luxe-Skin-Aesthetic/README.md)
+
 ---
 
 ## 🏢 Business & Corporate
