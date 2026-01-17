@@ -27,6 +27,12 @@ Collection of frontend projects built using **HTML, CSS, and JavaScript**, focus
   | [💻 Code](https://github.com/Abdul-Wasay23/Frontend-Projects-HTML-CSS-JS-/tree/main/005-ITG-Store)
   | [⬇️ Download](https://github.com/Abdul-Wasay23/Frontend-Projects-HTML-CSS-JS-/raw/main/005-ITG-Store/005-ITG-Store.zip)
   | [📘 README](https://github.com/Abdul-Wasay23/Frontend-Projects-HTML-CSS-JS-/blob/main/005-ITG-Store/README.md)
+  
+- **008-Leon-Nutrition**  
+  [👁️ View](https://github.com/Abdul-Wasay23/Frontend-Projects-HTML-CSS-JS-/blob/main/008-Leon-Nutrition/008-Leon-Nutrition-View.png)
+  | [💻 Code](https://github.com/Abdul-Wasay23/Frontend-Projects-HTML-CSS-JS-/tree/main/008-Leon-Nutrition)
+  | [⬇️ Download](https://github.com/Abdul-Wasay23/Frontend-Projects-HTML-CSS-JS-/raw/main/008-Leon-Nutrition/008-Leon-Protein.zip)
+  | [📘 README](https://github.com/Abdul-Wasay23/Frontend-Projects-HTML-CSS-JS-/blob/main/008-Leon-Nutrition/README.md)
 
 ---
 
