@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noindex,nofollow,noarchive" />
+    <!-- Bootstrap CSS -->
+    <link href="css/animate.css" rel="stylesheet">
+    <!-- <link href="fontawesome5/css/all.min.css" rel="stylesheet"> -->
+    <link href="slick/slick-theme.css" rel="stylesheet" type="text/css">
+    <link href="slick/slick.css" rel="stylesheet" type="text/css">
+    <link href="css/slicknav.css" rel="stylesheet" type="text/css">
+    <link href="css/fancybox.css" rel="stylesheet" type="text/css">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+    <link href="css/css-new.css" rel="stylesheet">
+    <link href="css/wp-custom.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="/images/">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Cart :: Leon Nutrition</title>
+</head>
+
+<body>
+
+    <div id="Header"></div>
+
+    <!-- banner start -->
+    <section class="inner-banner">
+        <div class="container hei">
+            <div class="banner-box hei">
+                <div class="row hei">
+                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 hei">
+                        <div class="banner_text text-center">
+                            <h1>
+                                Cart
+                            </h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- banner end -->
+
+
+    <section class="cart_sec sec">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 wow slideInLeft">
+                    <div class="table-responsive">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>Product</th>
+
+                                    <th> Price</th>
+                                    <th class="qty">Quantity</th>
+                                    <th>Subtotal</th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="space">
+                                    <td class="col-md-5">
+                                        <div class="row">
+                                            <div class="table-space">
+                                                <div class="row">
+                                                    <div class="col-lg-5 col-md-5 no-padding">
+                                                        <div class="product-img">
+                                                            <img src="images/product1.jpg" alt="image"
+                                                                class="img-responsive" />
+                                                            <i class="fa-solid fa-xmark cross"></i>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-7 col-md-7 no-space">
+                                                        <h6>PRODUCT NAME</h6>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </td>
+
+                                    <td class="col-md-2">
+                                        <h4>$99.00
+                                        </h4>
+                                    </td>
+                                    <td class="col-md-3">
+                                        <div class="num-block skin-2">
+                                            <div class="num-in">
+                                                <span class="minus" dis onClick='decreaseCount(event, this)'></span>
+                                                <input type="text" class="in-num" value="1" readonly="">
+                                                <span class="plus" onClick='increaseCount(event, this)'></span>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="col-md-2">
+                                        <h4>$99.00
+                                        </h4>
+                                    </td>
+
+                                </tr>
+
+                            </tbody>
+                            <tbody>
+                                <tr class="space">
+                                    <td class="col-md-5">
+                                        <div class="row">
+                                            <div class="table-space">
+                                                <div class="row">
+                                                    <div class="col-lg-5 col-md-5 no-padding">
+                                                        <div class="product-img">
+                                                            <img src="images/product3.jpg" alt="image"
+                                                                class="img-responsive" />
+                                                            <i class="fa-solid fa-xmark cross"></i>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-7 col-md-7 no-space">
+                                                        <h6>PRODUCT NAME</h6>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </td>
+
+                                    <td class="col-md-2">
+                                        <h4>$99.00
+                                        </h4>
+                                    </td>
+                                    <td class="col-md-3">
+                                        <div class="num-block skin-2">
+                                            <div class="num-in">
+                                                <span class="minus" dis onClick='decreaseCount(event, this)'></span>
+                                                <input type="text" class="in-num" value="1" readonly="">
+                                                <span class="plus" onClick='increaseCount(event, this)'></span>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="col-md-2">
+                                        <h4>$99.00
+                                        </h4>
+                                    </td>
+
+                                </tr>
+
+                            </tbody>
+                        </table>
+                        <div class="add-to-cart-bottom-sec ">
+                            <div class="add-to-cart-bottom-input">
+                                <ul>
+                                    <li><input type="text" name="Coupon code" placeholder="Coupon code"></li>
+                                    <li><button type="submit">Apply coupon</button></li>
+                                </ul>
+                            </div>
+                            <div class="add-to-cart-button">
+                                <a href="#">Update cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 wow slideInRight">
+                    <div class="cart-totals-box">
+                        <h2>Cart totals</h2>
+                        <ul>
+                            <li>
+                                <h2>Subtotal</h2>
+                                <h3>$198.00
+                                </h3>
+                            </li>
+                            <div class="">
+                                <div class="payment_method">
+                                    <div class="row">
+                                        <div class="col-lg-12">
+                                            <div class="row">
+                                                <div class="col-5 d-flex align-items-center">
+                                                    <div class="">
+                                                        <h6>SHIPPING</h6>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-7">
+                                                    <div class="row">
+
+                                                        <div class="col-12 d-flex ">
+
+                                                            <label for="#">Flat rate: $15.00</label>
+                                                            <div class="radio-slc">
+                                                                <input type="radio" name="asdsad">
+                                                                <span></span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+
+                                                        <div class="col-12 d-flex ">
+
+                                                            <label for="#">Local pickup</label>
+                                                            <div class="radio-slc">
+                                                                <input type="radio" name="asdsad">
+                                                                <span></span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-12">
+                                            <h6 class="right">Change Location</h6>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <li class="bb_0">
+                                <h4>Total</h4>
+                                <h5>$198.00
+                                </h5>
+                            </li>
+                            <a href="checkout.html" class="theme-btn">Proceed To Checkout</a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="Footer"></div>
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/wow.js"></script>
+    <script src="slick/slick.js"></script>
+    <script src="slick/slick.min.js"></script>
+    <script src="js/jquery.slicknav.js"></script>
+    <script src="js/fancybox.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/font.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/custom.js"></script>
+
+</body>
+
+</html>
