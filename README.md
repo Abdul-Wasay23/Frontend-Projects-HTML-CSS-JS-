@@ -56,6 +56,12 @@ Collection of frontend projects built using **HTML, CSS, and JavaScript**, focus
   | [⬇️ Download](https://github.com/Abdul-Wasay23/Frontend-Projects-HTML-CSS-JS-/raw/main/007-Luxe-Skin-Aesthetic/007-Luxe-Skin-Aesthetic.zip)
   | [📘 README](https://github.com/Abdul-Wasay23/Frontend-Projects-HTML-CSS-JS-/blob/main/007-Luxe-Skin-Aesthetic/README.md)
 
+- **009-Legends-Live-On**  
+  [👁️ View](https://github.com/Abdul-Wasay23/Frontend-Projects-HTML-CSS-JS-/blob/main/009-Legends-Live-On/009-Legends-Live-On-View.png)
+  | [💻 Code](https://github.com/Abdul-Wasay23/Frontend-Projects-HTML-CSS-JS-/tree/main/009-Legends-Live-On)
+  | [⬇️ Download](https://github.com/Abdul-Wasay23/Frontend-Projects-HTML-CSS-JS-/raw/main/009-Legends-Live-On/009-Legends-Live-On.zip)
+  | [📘 README](https://github.com/Abdul-Wasay23/Frontend-Projects-HTML-CSS-JS-/blob/main/009-Legends-Live-On/README.md)
+
 ---
 
 ## 🏢 Business & Corporate
