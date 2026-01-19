@@ -72,6 +72,12 @@ Collection of frontend projects built using **HTML, CSS, and JavaScript**, focus
   | [⬇️ Download](https://github.com/Abdul-Wasay23/Frontend-Projects-HTML-CSS-JS-/raw/main/002-Devnest/002-Devnest.zip)
   | [📘 README](https://github.com/Abdul-Wasay23/Frontend-Projects-HTML-CSS-JS-/blob/main/002-Devnest/README.md)
 
+- **010-Silent-Hands-Collective**      
+ [👁️ View](https://github.com/Abdul-Wasay23/Frontend-Projects-HTML-CSS-JS-/blob/main/010-Silent-Hands-Collective/010-Silent-Hands-Collective-View.jpg) 
+| [💻 Code](https://github.com/Abdul-Wasay23/Frontend-Projects-HTML-CSS-JS-/tree/main/010-Silent-Hands-Collective) 
+| [⬇️ Download](https://github.com/Abdul-Wasay23/Frontend-Projects-HTML-CSS-JS-/raw/main/010-Silent-Hands-Collective/010-Silent-Hands-Collective.zip) 
+| [📘 README](https://github.com/Abdul-Wasay23/Frontend-Projects-HTML-CSS-JS-/blob/main/010-Silent-Hands-Collective/README.md)
+
 ---
 
 ## 🧑‍💼 Portfolio & Personal
