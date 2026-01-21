@@ -78,6 +78,13 @@ Collection of frontend projects built using **HTML, CSS, and JavaScript**, focus
 | [⬇️ Download](https://github.com/Abdul-Wasay23/Frontend-Projects-HTML-CSS-JS-/raw/main/010-Silent-Hands-Collective/010-Silent-Hands-Collective.zip) 
 | [📘 README](https://github.com/Abdul-Wasay23/Frontend-Projects-HTML-CSS-JS-/blob/main/010-Silent-Hands-Collective/README.md)
 
+- **011-Nova-Global-Institute**  
+[👁️ View](https://github.com/Abdul-Wasay23/Frontend-Projects-HTML-CSS-JS-/blob/main/011-Nova-Global-Institute/011-Nova-Global-Institute-View.jpg)
+| [💻 Code](https://github.com/Abdul-Wasay23/Frontend-Projects-HTML-CSS-JS-/tree/main/011-Nova-Global-Institute)
+| [⬇️ Download](https://github.com/Abdul-Wasay23/Frontend-Projects-HTML-CSS-JS-/raw/main/011-Nova-Global-Institute/011-Nova-Global-Institute.zip)
+| [📘 README](https://github.com/Abdul-Wasay23/Frontend-Projects-HTML-CSS-JS-/blob/main/011-Nova-Global-Institute/README.md)
+
+
 ---
 
 ## 🧑‍💼 Portfolio & Personal
