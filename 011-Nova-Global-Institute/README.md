@@ -92,4 +92,5 @@ To view the website locally:
 
 - 📞 Phone: 0319-2020749  
 
-- ✉️ Email: wasay45456@gmail.com
+- ✉️ Email: wasay4546@gmail.com
+
