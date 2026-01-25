@@ -1,6 +1,12 @@
 # WinVerse
 
-**WinVerse** is a premium online competition platform featuring real-time ticket tracking, instant wins, and a gamified checkout experience.
+**WinVerse** is a premium online competition platform featuring real-time ticket tracking, instant wins, and a gamified checkout experience. Users can browse various active competitions—ranging from tech gadgets and cash prizes to luxury goods—and purchase tickets for a chance to win. The platform emphasizes transparency and excitement with live countdowns, sold-ticket progress bars, and instant-win mechanics.
+
+## How It Works
+
+1.  **Browse Competitions**: Explore active draws and choose a prize you want to win.
+2.  **Select Tickets**: Pick your lucky numbers or use the lucky dip to select tickets.
+3.  **Enter & Win**: Complete the secure checkout. You might win an "Instant Win" prize immediately, or wait for the live draw for the main jackpot.
 
 ## Features
 
