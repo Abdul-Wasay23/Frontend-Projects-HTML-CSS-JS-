@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noindex,nofollow,noarchive">
+
+    <title>Checkout - WinVerse </title>
+    <link rel="icon" type="image/x-icon" href="/images/">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link rel="preload" href="css/custom.css" as="style" onload="this.rel='stylesheet'">
+    <noscript>
+        <link href="css/custom.css" rel="stylesheet">
+    </noscript>
+    <link href="css/animate.css" rel="stylesheet">
+    <link href="slick/slick-theme.css" rel="stylesheet" type="text/css">
+    <link href="slick/slick.css" rel="stylesheet" type="text/css">
+    <link href="css/slicknav.css" rel="stylesheet" type="text/css">
+    <link href="css/fancybox.css" rel="stylesheet" type="text/css">
+    <link href="css/css-new.css" rel="stylesheet">
+    <link href="css/wp-custom.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/15.7.1/nouislider.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div id="Header"></div>
+
+    <!-- banner start -->
+    <section class="banner_sec inner-banner">
+        <div class="banner-box hei">
+            <div class="container hei">
+                <div class="row hei">
+                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 hei">
+                        <div class="banner_text">
+
+                            <h1>
+                                Checkout
+                            </h1>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- banner end -->
+
+    <section class="checkout-page sec">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <!-- Header -->
+                    <div class="checkout-header">
+                        <h1 class="checkout-title">Checkout</h1>
+                        <div class="discount-container">
+                            <button class="discount-btn" id="discount-btn">Discount Code</button>
+                            <div class="discount-popup" id="discount-popup">
+                                <h5>Discount Code</h5>
+                                <div class="discount-input-wrap">
+                                    <i class="fas fa-magic"></i>
+                                    <input type="text" placeholder="CODE10">
+                                </div>
+                                <div class="text-end mt-3">
+                                    <button class="discount-submit-btn">Submit</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Tickets Section -->
+                    <div class="ch-separator">
+                        <span>Tickets</span>
+                    </div>
+
+                    <div class="ch-accordion-item">
+                        <div class="ch-acc-header" id="checkout-accordion-toggle">
+                            <h3 class="ch-acc-title">Free to Enter Ultimate Gamer's Package</h3>
+                            <div class="ch-acc-meta">
+                                <span class="ch-acc-tickets">x3</span>
+                                <span>/</span>
+                                <span>£0.00</span>
+                                <i class="fas fa-minus ch-acc-toggle" id="accordion-icon"></i>
+                            </div>
+                        </div>
+                        <div class="ch-acc-body" id="checkout-accordion-body">
+                            <div class="ch-product-img">
+                                <img src="images/banner-1.jpg" alt="Console Bundle">
+                            </div>
+                            <div class="ch-product-info">
+                                <h4>Free to Enter Ultimate Gamer's Package</h4>
+                                <p class="ch-product-price-detail">£0.00 <span>x 3</span></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Totals Section -->
+                    <div class="ch-separator">
+                        <span>Totals</span>
+                    </div>
+
+                    <div class="ch-totals">
+                        <div class="ch-total-row">
+                            <span>Subtotal</span>
+                            <span>£0.00</span>
+                        </div>
+                        <div class="ch-total-row">
+                            <span>Total</span>
+                            <span>£0.00</span>
+                        </div>
+                    </div>
+
+                    <!-- Billing Section -->
+                    <div class="ch-separator">
+                        <span>Billing Address</span>
+                    </div>
+
+                    <form class="ch-billing-form">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <label class="ch-form-label">First Name</label>
+                                <input type="text" class="ch-input" placeholder="David">
+                            </div>
+                            <div class="col-md-6">
+                                <label class="ch-form-label">Last Name</label>
+                                <input type="text" class="ch-input" placeholder="Web">
+                            </div>
+                        </div>
+
+                        <label class="ch-form-label">Email address</label>
+                        <input type="email" class="ch-input" placeholder="davidweb302@gmail.com">
+
+                        <label class="ch-form-label">Mobile Phone</label>
+                        <input type="tel" class="ch-input">
+
+                        <label class="ch-form-label">Street Address</label>
+                        <input type="text" class="ch-input">
+
+                        <div class="row">
+                            <div class="col-md-6">
+                                <label class="ch-form-label">Town / City</label>
+                                <input type="text" class="ch-input">
+                            </div>
+                            <div class="col-md-6">
+                                <label class="ch-form-label">County</label>
+                                <input type="text" class="ch-input">
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-6">
+                                <label class="ch-form-label">Country</label>
+                                <select class="ch-input ch-select">
+                                    <option>United Kingdom</option>
+                                    <option>Ireland</option>
+                                </select>
+                            </div>
+                            <div class="col-md-6">
+                                <label class="ch-form-label">Postcode</label>
+                                <input type="text" class="ch-input">
+                            </div>
+                        </div>
+
+                        <!-- Checkboxes -->
+                        <div class="ch-checkbox-group">
+                            <label class="ch-checkbox-item">
+                                <input type="checkbox">
+                                <span>Receive Discount Codes & Latest Competitions</span>
+                            </label>
+
+                            <!-- Payment Warning -->
+                            <div class="ch-payment-warning">
+                                <i class="fas fa-exclamation-triangle"></i>
+                                <p>Cashflows Payment Testing ENABLED. Real Money not taken.</p>
+                            </div>
+
+                            <!-- Payment Methods -->
+                            <div class="ch-payment-methods">
+                                <div class="ch-payment-method active">
+                                    <span class="ch-pm-title">Cards, Apple & Google Pay</span>
+                                    <div class="ch-pm-icons">
+                                        <i class="fab fa-cc-visa"></i>
+                                        <i class="fab fa-cc-mastercard"></i>
+                                        <i class="fab fa-apple-pay"></i>
+                                        <i class="fab fa-google-pay"></i>
+                                    </div>
+                                </div>
+                                <div class="ch-payment-method ch-payment-method-wallet">
+                                    <div class="ch-pm-wallet-header">
+                                        <i class="fas fa-wallet"></i>
+                                        <span>Wallet + Card</span>
+                                    </div>
+                                    <div class="ch-pm-balance">£0.90</div>
+                                </div>
+                            </div>
+
+                            <label class="ch-checkbox-item">
+                                <input type="checkbox">
+                                <span>I am over 18 & agree to the terms and conditions</span>
+                            </label>
+                        </div>
+
+                        <a href="thanks.html" class="ch-place-order-link">Place Free Order</a>
+
+                        <div class="ch-ssl-badge">
+                            <i class="fas fa-lock"></i>
+                            SSL Secure Payment
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="Footer"></div>
+
+
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wnumb/1.2.0/wNumb.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/15.7.1/nouislider.min.js"></script>
+    <script src="js/wow.js"></script>
+    <script src="slick/slick.js"></script>
+    <script src="slick/slick.min.js"></script>
+    <script src="js/jquery.slicknav.js"></script>
+    <script src="js/fancybox.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/font.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="js/gsap-animation.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="js/ScrollSmoother.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
+</body>
+
+</html>

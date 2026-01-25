@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noindex,nofollow,noarchive">
+
+    <title>Thanks - WinVerse </title>
+    <link rel="icon" type="image/x-icon" href="/images/">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link rel="preload" href="css/custom.css" as="style" onload="this.rel='stylesheet'">
+    <noscript>
+        <link href="css/custom.css" rel="stylesheet">
+    </noscript>
+    <link href="css/animate.css" rel="stylesheet">
+    <link href="slick/slick-theme.css" rel="stylesheet" type="text/css">
+    <link href="slick/slick.css" rel="stylesheet" type="text/css">
+    <link href="css/slicknav.css" rel="stylesheet" type="text/css">
+    <link href="css/fancybox.css" rel="stylesheet" type="text/css">
+    <link href="css/css-new.css" rel="stylesheet">
+    <link href="css/wp-custom.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/15.7.1/nouislider.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+
+    <div id="Header"></div>
+
+    <main class="thanks-page sec">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <!-- Success Header -->
+                    <div class="th-success-header">
+                        <div class="th-success-badge">Order Successful!</div>
+                    </div>
+
+                    <!-- Order Info -->
+                    <div class="th-order-info">
+                        <h2 class="th-order-id">Order #168</h2>
+                        <p class="th-order-placed">Order placed <time datetime="2026-01-23">January 23, 2026</time></p>
+                    </div>
+
+                    <!-- Product Card -->
+                    <div class="th-product-card">
+                        <div class="th-prod-img">
+                            <img src="https://static.rafflex.io/marvalouscompetitions.co.uk/104/01KEM4M4VPDF0SX6A8WBZ6JMA1.png"
+                                alt="Console Bundle">
+                        </div>
+                        <div class="th-prod-details">
+                            <div class="th-prod-top">
+                                <h3 class="th-prod-name">Free to Enter Ultimate Gamer's Package</h3>
+                                <p class="th-prod-price">£0.00</p>
+                            </div>
+
+                            <div class="th-ticket-label-row">
+                                <span class="th-ticket-label">Your Tickets</span>
+                                <span class="th-ticket-qty">Qty x3</span>
+                            </div>
+
+                            <div class="th-ticket-list">
+                                <span class="th-ticket-id">837</span>
+                                <span class="th-ticket-id">4799</span>
+                                <span class="th-ticket-id">7640</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Spin Machine Section -->
+                    <div class="th-spin-machine-wrapper">
+                        <div class="th-spin-container">
+                            <div class="th-reels-row">
+                                <div class="th-reel" id="reel-1">
+                                    <div class="th-reel-strip">
+                                        <!-- Symbols strip -->
+                                        <div class="th-symbol"><img src="images/banner-1.jpg" alt="S">
+                                        </div>
+                                        <div class="th-symbol"><img src="images/banner-2.jpg" alt="S">
+                                        </div>
+                                        <div class="th-symbol"><img src="images/banner-3.png" alt="S">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="th-reel" id="reel-2">
+                                    <div class="th-reel-strip">
+                                        <div class="th-symbol"><img src="images/banner-1.jpg" alt="S">
+                                        </div>
+                                        <div class="th-symbol"><img src="images/banner-2.jpg" alt="S">
+                                        </div>
+                                        <div class="th-symbol"><img src="images/banner-3.png" alt="S">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="th-reel" id="reel-3">
+                                    <div class="th-reel-strip">
+                                        <div class="th-symbol"><img src="images/banner-1.jpg" alt="S">
+                                        </div>
+                                        <div class="th-symbol"><img src="images/banner-2.jpg" alt="S">
+                                        </div>
+                                        <div class="th-symbol"><img src="images/banner-3.png" alt="S">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="th-spin-status">
+                                <span>Spins Remaining: <span id="spins-count">3</span></span>
+                            </div>
+
+                            <div class="th-spin-action">
+                                <button class="th-spin-btn" id="spin-machine-trigger">Spin &uarr;</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Scratch Off Section -->
+                    <div class="th-scratch-wrapper">
+                        <h3 class="th-scratch-title">Scratch Off! &target;</h3>
+                        <div class="th-scratch-container">
+                            <!-- Background Prize Layer -->
+                            <div class="th-scratch-prizes">
+                                <div class="th-scratch-card no-win">
+                                    <span class="sc-number">3948</span>
+                                    <span class="sc-result">No Win</span>
+                                </div>
+                                <div class="th-scratch-card winner">
+                                    <span class="sc-number">6525</span>
+                                    <span class="sc-result">£5 Site Credit</span>
+                                </div>
+                                <div class="th-scratch-card no-win">
+                                    <span class="sc-number">9150</span>
+                                    <span class="sc-result">No Win</span>
+                                </div>
+                            </div>
+                            <!-- Interactive Canvas Layer -->
+                            <canvas id="scratch-canvas"></canvas>
+                        </div>
+                    </div>
+
+                    <!-- Upsell Box -->
+                    <div class="th-upsell-box">
+                        <div class="th-upsell-text">
+                            <h3>Fancy Another Go?</h3>
+                            <p>Try your luck again — hit repeat and you’re back at checkout!</p>
+                        </div>
+                        <button class="th-repeat-btn" onclick="location.href='checkout.html'">Repeat This
+                            Order!</button>
+                    </div>
+
+                    <!-- Billing Summary -->
+                    <div class="th-summary-card">
+                        <div class="th-billing-info">
+                            <h4>Billing address</h4>
+                            <p>
+                                My first name my last name<br>
+                                Piccadilly Arcade<br>
+                                London, United Kingdom, SW1Y 6NH
+                            </p>
+                        </div>
+
+                        <div class="th-totals-info">
+                            <div class="th-total-row">
+                                <span>Subtotal</span>
+                                <span>£0.00</span>
+                            </div>
+                            <div class="th-total-row main">
+                                <span>Order total</span>
+                                <span>£0.00</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div id="Footer"></div>
+
+
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wnumb/1.2.0/wNumb.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/15.7.1/nouislider.min.js"></script>
+    <script src="js/wow.js"></script>
+    <script src="slick/slick.js"></script>
+    <script src="slick/slick.min.js"></script>
+    <script src="js/jquery.slicknav.js"></script>
+    <script src="js/fancybox.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/font.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="js/gsap-animation.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="js/ScrollSmoother.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
+</body>
+
+</html>
