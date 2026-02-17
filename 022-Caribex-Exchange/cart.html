@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noindex,nofollow,noarchive">
+
+    <title>Cart - Caribex-Exchange</title>
+    <link rel="icon" type="image/x-icon" href="/images/">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link rel="preload" href="css/custom.css" as="style" onload="this.rel='stylesheet'">
+    <noscript>
+        <link href="css/custom.css" rel="stylesheet">
+    </noscript>
+    <link href="css/animate.css" rel="stylesheet">
+    <link href="slick/slick-theme.css" rel="stylesheet" type="text/css">
+    <link href="slick/slick.css" rel="stylesheet" type="text/css">
+    <link href="css/slicknav.css" rel="stylesheet" type="text/css">
+    <link href="css/fancybox.css" rel="stylesheet" type="text/css">
+    <link href="css/css-new.css" rel="stylesheet">
+    <link href="css/wp-custom.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+    <link href="css/gsap-styles.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <!-- GSAP Core -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
+</head>
+
+<body>
+
+
+    <div id="Header"></div>
+
+    <!-- Inner Banner Start  -->
+    <section class="inner-banner">
+        <img src="images/banner-left.jpg" alt="banner-left-img" class="banner-left-img">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-xl-12 col-md-12 col-sm-12">
+                    <div class="inner-banner-content">
+                        <h1>Cart</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Inner Banner End  -->
+
+    <section class="cart-sec sec">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="cart-heading text-center">
+                        <h2>
+                            Your Cart
+                        </h2>
+                    </div>
+                </div>
+
+            </div>
+            <div class="desktop-cart">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <div class="cart-table-box table-responsive-box">
+                            <table class="cart-table table-responsive">
+                                <thead>
+                                    <tr>
+                                        <th class="col-lg-2">
+                                            <p>Product</p>
+                                        </th>
+                                        <th class="col-lg-3"></th>
+                                        <th class="col-lg-2">
+                                            <p>Price</p>
+                                        </th>
+                                        <th class="col-lg-2">
+                                            <p>Quantity</p>
+                                        </th>
+                                        <th class="col-lg-2">
+                                            <p>Total</p>
+                                        </th>
+                                        <th class="col-lg-1"></th>
+                                    </tr>
+                                </thead>
+
+                                <tbody>
+                                    <tr>
+                                        <td class="col-lg-2">
+                                            <div class="cart-image">
+                                                <img src="images/product1.jpg" alt="cart-img" class="cart-img" />
+                                            </div>
+                                        </td>
+
+                                        <td class="col-lg-3">
+                                            <div class="cart-product-descrip">
+                                                <h6>Lorem Ispum Dolor</h6>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                                                    eiusmod.</p>
+                                            </div>
+                                        </td>
+
+                                        <td class="col-lg-2">
+                                            <div class="price">$100.00</div>
+                                        </td>
+
+                                        <td class="col-lg-2">
+                                            <div class="quantity">
+                                                <span class="minus"><i class="fa-solid fa-minus"></i></span>
+                                                <input type="number" class="cart-value" min="1" value="1" readonly>
+                                                <span class="plus"><i class="fa-solid fa-plus"></i></span>
+                                            </div>
+                                        </td>
+
+                                        <td class="col-lg-2">
+                                            <div class="total-price">
+                                                <p>$200.00</p>
+                                            </div>
+                                        </td>
+
+                                        <td class="col-lg-1">
+                                            <a href="javascript:void(0)" class="remove">
+                                                <i class="fa-solid fa-xmark"></i>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="col-lg-2">
+                                            <div class="cart-image">
+                                                <img src="images/product2.jpg" alt="cart-img" class="cart-img" />
+                                            </div>
+                                        </td>
+
+                                        <td class="col-lg-3">
+                                            <div class="cart-product-descrip">
+                                                <h6>Lorem Ispum Dolor</h6>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                                                    eiusmod.</p>
+                                            </div>
+                                        </td>
+
+                                        <td class="col-lg-2">
+                                            <div class="price">$100.00</div>
+                                        </td>
+
+                                        <td class="col-lg-2">
+                                            <div class="quantity">
+                                                <span class="minus"><i class="fa-solid fa-minus"></i></span>
+                                                <input type="number" class="cart-value" min="1" value="1" readonly>
+                                                <span class="plus"><i class="fa-solid fa-plus"></i></span>
+                                            </div>
+                                        </td>
+
+                                        <td class="col-lg-2">
+                                            <div class="total-price">
+                                                <p>$200.00</p>
+                                            </div>
+                                        </td>
+
+                                        <td class="col-lg-1">
+                                            <a href="javascript:void(0)" class="remove">
+                                                <i class="fa-solid fa-xmark"></i>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="col-lg-2">
+                                            <div class="cart-image">
+                                                <img src="images/product3.jpg" alt="cart-img" class="cart-img" />
+                                            </div>
+                                        </td>
+
+                                        <td class="col-lg-3">
+                                            <div class="cart-product-descrip">
+                                                <h6>Lorem Ispum Dolor</h6>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                                                    eiusmod.</p>
+                                            </div>
+                                        </td>
+
+                                        <td class="col-lg-2">
+                                            <div class="price">$100.00</div>
+                                        </td>
+
+                                        <td class="col-lg-2">
+                                            <div class="quantity">
+                                                <span class="minus"><i class="fa-solid fa-minus"></i></span>
+                                                <input type="number" class="cart-value" min="1" value="1" readonly>
+                                                <span class="plus"><i class="fa-solid fa-plus"></i></span>
+                                            </div>
+                                        </td>
+
+                                        <td class="col-lg-2">
+                                            <div class="total-price">
+                                                <p>$200.00</p>
+                                            </div>
+                                        </td>
+
+                                        <td class="col-lg-1">
+                                            <a href="javascript:void(0)" class="remove">
+                                                <i class="fa-solid fa-xmark"></i>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="summary-box">
+                            <div class="summary-heading">
+                                <h6>Order Summary</h6>
+                            </div>
+                            <div class="summary-bottom-box">
+                                <ul class="smmary-list">
+                                    <li>
+                                        <p>Subtotal</p>
+                                        <p>$418.00</p>
+                                    </li>
+                                    <li>
+                                        <p>$418.00</p>
+                                        <p>
+                                            Free
+                                        </p>
+                                    </li>
+                                </ul>
+                                <div class="code-box">
+                                    <a href="#" class="summary-code">
+                                        Add Coupon Code <i class="fa-solid fa-arrow-right-long"></i></a>
+                                    <div class="code-input-box">
+                                        <form action="">
+                                            <input type="text" class="form-control" placeholder="Enter Code" />
+                                            <button class="code-btn theme-btn style1">
+                                                Submit
+                                            </button>
+                                        </form>
+                                    </div>
+                                </div>
+                                <ul class="total-box">
+                                    <li>
+                                        <h6>Total</h6>
+                                    </li>
+                                    <li>
+                                        <h6 class="total-price">
+                                            $418.00
+                                        </h6>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <a href="checkout.html" class="theme-btn style1 checkout-btn">
+                            buy now
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="Footer"></div>
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/wow.js"></script>
+    <script src="slick/slick.js"></script>
+    <script src="slick/slick.min.js"></script>
+    <script src="js/jquery.slicknav.js"></script>
+    <script src="js/fancybox.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/font.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/ScrollSmoother.min.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="js/gsap-animation.js"></script>
+</body>
+
+</html>

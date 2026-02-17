@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noindex,nofollow,noarchive">
+
+    <title>Login/Register - Caribex-Exchange</title>
+    <link rel="icon" type="image/x-icon" href="/images/">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link rel="preload" href="css/custom.css" as="style" onload="this.rel='stylesheet'">
+    <noscript>
+        <link href="css/custom.css" rel="stylesheet">
+    </noscript>
+    <link href="css/animate.css" rel="stylesheet">
+    <link href="slick/slick-theme.css" rel="stylesheet" type="text/css">
+    <link href="slick/slick.css" rel="stylesheet" type="text/css">
+    <link href="css/slicknav.css" rel="stylesheet" type="text/css">
+    <link href="css/fancybox.css" rel="stylesheet" type="text/css">
+    <link href="css/css-new.css" rel="stylesheet">
+    <link href="css/wp-custom.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+    <link href="css/gsap-styles.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <!-- GSAP Core -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
+</head>
+
+<body>
+
+
+    <div id="Header"></div>
+
+    <!-- Inner Banner Start  -->
+    <section class="inner-banner">
+        <img src="images/banner-left.jpg" alt="banner-left-img" class="banner-left-img">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-xl-12 col-md-12 col-sm-12">
+                    <div class="inner-banner-content">
+                        <h1>Login <span>/</span> Register</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Inner Banner End  -->
+
+
+    <!-- login start -->
+    <section class="login">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="login-txt">
+                        <h3>Login Your Account </h3>
+                        <form>
+                            <input type="text" name="text" placeholder="User Name">
+                            <div class="password-box">
+                                <div class="password-box-input">
+                                    <input id="password1" type="password" class="form-control" name="password"
+                                        placeholder="Password">
+                                </div>
+                                <div class="password-icon">
+                                    <span class="toggle-password fa fa-eye" toggle="#password1"></span>
+                                </div>
+                            </div>
+                            <button type="submit">Log In</button>
+                        </form>
+                        <ul>
+                            <li><input type="checkbox" name="checkbox">Remember me</li>
+                            <li class="head">Forgot Password?</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="login-txt">
+                        <h3>Register Your Account</h3>
+                        <form id="registration-form" class="modal-form">
+                            <div class="form-row row">
+                                <div class="form-group col-md-6">
+                                    <input type="text" id="businessName" name="businessName" class="form-control"
+                                        required placeholder="Enter business name">
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <input type="text" id="businessAddress" name="businessAddress" class="form-control"
+                                        required placeholder="Enter business address">
+                                </div>
+                            </div>
+
+                            <div class="form-row row">
+                                <div class="form-group col-md-6">
+                                    <input type="text" id="fullName" name="fullName" class="form-control" required
+                                        placeholder="Enter your full name">
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <input type="email" id="emailAddress" name="emailAddress" class="form-control"
+                                        required placeholder="Enter email address">
+                                </div>
+                            </div>
+
+                            <div class="form-row row">
+                                <div class="form-group col-md-12">
+                                    <input type="number" id="phoneNumber" name="phoneNumber" class="form-control"
+                                        required placeholder="Enter phone number">
+                                </div>
+                                <div class="form-group col-md-12">
+                                    <label>Type of Customer *</label>
+                                    <div class="radio-group flex-direction-row">
+                                        <label class="radio-container">New Customer
+                                            <input type="radio" name="customerType" value="New Customer" required>
+                                            <span class="checkmark"></span>
+                                        </label>
+                                        <label class="radio-container">Existing Customer – Brand A
+                                            <input type="radio" name="customerType" value="Existing Customer – Brand A">
+                                            <span class="checkmark"></span>
+                                        </label>
+                                        <label class="radio-container">Existing Customer – Brand B
+                                            <input type="radio" name="customerType" value="Existing Customer – Brand B">
+                                            <span class="checkmark"></span>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-row row">
+                                <div class="form-group col-md-6">
+                                    <label>Type of Store *</label>
+                                    <div class="radio-group">
+                                        <label class="radio-container">Shoe Store
+                                            <input type="radio" name="storeType" value="Shoe Store" required>
+                                            <span class="checkmark"></span>
+                                        </label>
+                                        <label class="radio-container">Shoe & Clothing Store
+                                            <input type="radio" name="storeType" value="Shoe & Clothing Store">
+                                            <span class="checkmark"></span>
+                                        </label>
+                                        <label class="radio-container">Other
+                                            <input type="radio" name="storeType" value="Other" id="storeTypeOther">
+                                            <span class="checkmark"></span>
+                                        </label>
+                                    </div>
+                                    <div id="otherStoreField" class="mt-2" style="display: none;">
+                                        <input type="text" name="otherStoreType" class="form-control"
+                                            placeholder="Please specify store type">
+                                    </div>
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label>Business Operation Type *</label>
+                                    <div class="radio-group">
+                                        <label class="radio-container">Brick & Mortar
+                                            <input type="radio" name="operationType" value="Brick & Mortar" required>
+                                            <span class="checkmark"></span>
+                                        </label>
+                                        <label class="radio-container">Internet
+                                            <input type="radio" name="operationType" value="Internet">
+                                            <span class="checkmark"></span>
+                                        </label>
+                                        <label class="radio-container">Both
+                                            <input type="radio" name="operationType" value="Both">
+                                            <span class="checkmark"></span>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-group mt-3">
+                                <label class="checkbox-container">I confirm that I am not an Amazon seller or trailer. *
+                                    <input type="checkbox" name="amazonConfirm" required>
+                                    <span class="checkbox-mark"></span>
+                                </label>
+                            </div>
+
+                            <ul class="justify-content-start mt-3">
+                                <li>By creating an account, You agree to our</li>
+                                <li class="head head-ex">Terms & Condition</li>
+                            </ul>
+
+                            <button type="submit">Submit Registration</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- login end -->
+
+    <div id="Footer"></div>
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/wow.js"></script>
+    <script src="slick/slick.js"></script>
+    <script src="slick/slick.min.js"></script>
+    <script src="js/jquery.slicknav.js"></script>
+    <script src="js/fancybox.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/font.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/ScrollSmoother.min.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="js/gsap-animation.js"></script>
+</body>
+
+</html>

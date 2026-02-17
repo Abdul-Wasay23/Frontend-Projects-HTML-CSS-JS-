@@ -1,0 +1,384 @@
+/*Media Query Start*/
+
+@media only screen and (min-width: 1366px) and (max-width: 1500px) {}
+
+@media only screen and (min-width: 1200px) and (max-width: 1365px) {}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    section.header .col-lg-8.col-md-12.col-sm-12 {
+        width: 100%;
+        order: 3;
+    }
+
+    section.header .col-lg-2.col-md-6.col-sm-6 {
+        order: 2;
+        width: 50%;
+    }
+
+    .hdr_btn {
+        display: flex;
+        align-items: center;
+        justify-content: end;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    h1 {
+        font-size: 40px;
+    }
+
+    h2 {
+        font-size: 35px;
+    }
+
+    h3 {
+        font-size: 30px;
+    }
+
+    h4 {
+        font-size: 25px;
+    }
+
+    h5 {
+        font-size: 20px;
+    }
+
+    h6 {
+        font-size: 17px;
+    }
+
+    p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    section.header .col-lg-8.col-md-12.col-sm-12 {
+        width: 100%;
+        order: 3;
+    }
+
+    section.header .col-lg-2.col-md-6.col-sm-6 {
+        order: 2;
+    }
+
+    .hdr_btn {
+        display: flex;
+        align-items: center;
+        justify-content: end;
+    }
+}
+
+@media only screen and (min-width: 520px) and (max-width: 767px) {
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 35px;
+    }
+
+    h3 {
+        font-size: 30px;
+    }
+
+    h4 {
+        font-size: 25px;
+    }
+
+    h5 {
+        font-size: 20px;
+    }
+
+    h6 {
+        font-size: 17px;
+    }
+
+    p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    section.header .nav.stroke {
+        display: none;
+    }
+
+    .hdr_logo a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .hdr_btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .slicknav_nav a:hover {
+        background: #fff;
+        color: #4f2d06;
+    }
+
+    .slicknav_nav a.active {
+        background: #fff;
+        color: #4f2d06;
+    }
+
+    .slicknav_menu {
+        background: #4a2800;
+    }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 519px) {
+
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    h3 {
+        font-size: 30px;
+    }
+
+    h4 {
+        font-size: 25px;
+    }
+
+    h5 {
+        font-size: 20px;
+    }
+
+    h6 {
+        font-size: 17px;
+    }
+
+    p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    section.header .nav.stroke {
+        display: none;
+    }
+
+    .hdr_logo a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .hdr_btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .slicknav_nav a:hover {
+        background: #fff;
+        color: #4f2d06;
+    }
+
+    .slicknav_nav a.active {
+        background: #fff;
+        color: #4f2d06;
+    }
+
+    .banner-left-text {
+        width: 90%;
+        padding: 70px 0;
+    }
+
+    .f-22 {
+        font-size: 16px;
+    }
+
+    img.move {
+        margin: 0 0 -50px 0;
+    }
+
+    img.banner-left-shoe {
+        margin: 0 0 -110px 0;
+    }
+
+    section.header {
+        margin: 0 0 20px 0;
+    }
+
+    .banner-right-text {
+        width: 90%;
+    }
+
+    .banner-right-text::before {
+        width: 110vw;
+    }
+
+    .theme-btn {
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+
+    .line-heading {
+        justify-content: center;
+    }
+
+    .right-heading h2 {
+        text-align: center;
+    }
+
+    img.who-we-img {
+        height: 250px;
+    }
+
+    img.who-we-text-img {
+        width: 100%;
+    }
+
+    .who-we-text p {
+        text-align: center;
+    }
+
+    .who-we-text a {
+        justify-self: center;
+    }
+
+    .sec {
+        padding: 40px 0;
+    }
+
+    .right-heading {
+        justify-content: center;
+    }
+
+    .nav.nav-pills {
+        justify-content: center;
+        gap: 7px;
+    }
+
+    .nav-pills .nav-link {
+        font-size: 12px;
+        padding: 10px;
+    }
+
+
+    form.hdr-form {
+        width: 60%;
+    }
+
+    .built-image {
+        position: relative;
+        width: 100%;
+    }
+
+    .built-main-box {
+        padding: 20px 0;
+    }
+
+    img.built-bg {
+        height: 100%;
+    }
+
+    .built-left h2 {
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .built-text {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .built-left {
+        margin: 0;
+    }
+
+    .built-left h2 span {
+        margin: 0 !important;
+        line-height: 2;
+        text-align: center;
+    }
+
+    .built-right p {
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    .built-text a.theme-btn.style1 {
+        position: relative;
+        justify-self: center;
+    }
+
+    .product-box {
+        margin: 0;
+    }
+
+    .slicknav_menu {
+        background: #4a2800;
+    }
+
+    .product-card-text {
+        text-align: center;
+    }
+
+    ul.product-list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .product-nav-img {
+        justify-content: center;
+    }
+
+    .collec-heading {
+        position: relative;
+    }
+
+    .collec-heading h2 {
+        font-size: 55px;
+    }
+
+    .slider-for-box {
+        margin: 20px 0;
+    }
+
+    img.slider-for-img {
+        height: 350px;
+    }
+
+    img.slider-nav-img {
+        height: 180px;
+    }
+
+    .slider-nav-box {
+        width: 100%;
+        margin: 0;
+    }
+
+    .collection-box {
+        padding: 0;
+    }
+
+    .slick-slide {
+        margin: 0 10px;
+    }
+
+    .contact-image {
+        position: relative;
+        width: 100%;
+    }
+
+    section.collec-sec {
+        padding-bottom: 30px;
+        margin-bottom: 30px;
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 299px) {}
+
+/*Media Query End*/
+
+html {
+    overflow-x: hidden !important;
+}

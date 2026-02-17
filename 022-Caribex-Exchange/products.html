@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noindex,nofollow,noarchive">
+
+    <title>Products - Caribex-Exchange</title>
+    <link rel="icon" type="image/x-icon" href="/images/">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link rel="preload" href="css/custom.css" as="style" onload="this.rel='stylesheet'">
+    <noscript>
+        <link href="css/custom.css" rel="stylesheet">
+    </noscript>
+    <link href="css/animate.css" rel="stylesheet">
+    <link href="slick/slick-theme.css" rel="stylesheet" type="text/css">
+    <link href="slick/slick.css" rel="stylesheet" type="text/css">
+    <link href="css/slicknav.css" rel="stylesheet" type="text/css">
+    <link href="css/fancybox.css" rel="stylesheet" type="text/css">
+    <link href="css/css-new.css" rel="stylesheet">
+    <link href="css/wp-custom.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+    <link href="css/gsap-styles.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <!-- GSAP Core -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
+</head>
+
+<body>
+
+
+    <div id="Header"></div>
+
+    <!-- Inner Banner Start  -->
+    <section class="inner-banner">
+        <img src="images/banner-left.jpg" alt="banner-left-img" class="banner-left-img">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-xl-12 col-md-12 col-sm-12">
+                    <div class="inner-banner-content">
+                        <h1>Products</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Inner Banner End  -->
+
+    <section class="products-section sec">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-xl-4 col-md-12 col-sm-12">
+                    <div class="product-sidebar">
+                        <h3 class="filter-title">Filter:</h3>
+
+                        <!-- Collection Section -->
+                        <div class="filter-group">
+                            <div class="filter-header">
+                                Collection <i class="fa fa-angle-down"></i>
+                            </div>
+                            <div class="filter-content" style="display: block;">
+                                <ul class="filter-list">
+                                    <li><a href="#">Casual Shoes (8)</a></li>
+                                    <li><a href="#">Slip-Resistant Shoes (12)</a></li>
+                                    <li><a href="#">Industrial / Warehouse (15)</a></li>
+                                    <li><a href="#">Athletic Footwear (8)</a></li>
+                                    <li><a href="#">Boots For Every Occasion (8)</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Availability Section -->
+                        <div class="filter-group">
+                            <div class="filter-header">
+                                Availability <i class="fa fa-angle-down"></i>
+                            </div>
+                            <div class="filter-content">
+                                <div class="filter-checkbox">
+                                    <input type="checkbox" id="in-stock">
+                                    <label for="in-stock">In stock (15)</label>
+                                </div>
+                                <div class="filter-checkbox">
+                                    <input type="checkbox" id="out-of-stock">
+                                    <label for="out-of-stock">Out of stock (10)</label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Price Section -->
+                        <div class="filter-group">
+                            <div class="filter-header">
+                                Price <i class="fa fa-angle-down"></i>
+                            </div>
+                            <div class="filter-content">
+                                <div class="price-range-slider">
+                                    <div class="slider-track"></div>
+                                    <div class="slider-handle min-handle"></div>
+                                    <div class="slider-handle max-handle"></div>
+                                </div>
+                                <div class="price-inputs">
+                                    <div class="price-field">
+                                        <span>$</span>
+                                        <input type="number" value="0" placeholder="Min">
+                                    </div>
+                                    <div class="price-field">
+                                        <span>$</span>
+                                        <input type="number" value="25.00" placeholder="Max">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Brand Section -->
+                        <div class="filter-group">
+                            <div class="filter-header">
+                                Brand <i class="fa fa-angle-down"></i>
+                            </div>
+                            <div class="filter-content">
+                                <div class="filter-checkbox">
+                                    <input type="checkbox" id="brand-tp">
+                                    <label for="brand-tp">Men’s Collection (10)</label>
+                                </div>
+                                <div class="filter-checkbox">
+                                    <input type="checkbox" id="brand-aw">
+                                    <label for="brand-aw">Slip-Resistant (1)</label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Color Section -->
+                        <div class="filter-group">
+                            <div class="filter-header">
+                                Color <i class="fa fa-angle-down"></i>
+                            </div>
+                            <div class="filter-content">
+                                <div class="color-swatches">
+                                    <span class="color-swatch" style="background-color: #000000;"></span>
+                                    <span class="color-swatch" style="background-color: #4A90E2;"></span>
+                                    <span class="color-swatch" style="background-color: #7A2C2C;"></span>
+                                    <span class="color-swatch" style="background-color: #D2B48C;"></span>
+                                    <span class="color-swatch" style="background-color: #5D2E17;"></span>
+                                    <span class="color-swatch" style="background-color: #4A4A4A;"></span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Size Section -->
+                        <div class="filter-group">
+                            <div class="filter-header">
+                                Size <i class="fa fa-angle-down"></i>
+                            </div>
+                            <div class="filter-content">
+                                <div class="size-options">
+                                    <span class="size-btn">S</span>
+                                    <span class="size-btn">M</span>
+                                    <span class="size-btn">L</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-8 col-xl-8 col-md-12 col-sm-12">
+                    <div class="product-top-bar">
+                        <div class="row align-items-center">
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-12">
+                                <div class="product-top-bar-left">
+                                    <p class="subheading">Showing 1 - 12 of 24 products</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-12">
+                                <div class="product-top-bar-right">
+                                    <p class="subheading">Sort by</p>
+                                    <select class="form-control">
+                                        <option>Default</option>
+                                        <option>Price</option>
+                                        <option>Name</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-list">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-6 col-sm-6 col-12" data-aos="zoom-in" data-aos-duration="1000"
+                                data-aos-delay="100">
+                                <div class="product-card">
+                                    <div class="product-card-image">
+                                        <a href="product-detail.html" class="product1">
+                                            <img src="images/product-nav1.jpg" alt="product1" class="product-img" />
+                                        </a>
+                                        <a href="product-detail.html" class="product2 active">
+                                            <img src="images/product1.jpg" alt="product2" class="product-img" />
+                                        </a>
+                                    </div>
+                                    <div class="product-card-text">
+                                        <p class="subheading">
+                                            Caribex Men's Classic Modern Wide Width Plain Toe Oxford
+                                        </p>
+                                        <ul class="product-list">
+                                            <li>
+                                                <div class="stars">
+                                                    <a href="#"><i class="fa fa-star"></i></a>
+                                                    <a href="#"><i class="fa fa-star"></i></a>
+                                                    <a href="#"><i class="fa fa-star"></i></a>
+                                                    <a href="#"><i class="fa fa-star"></i></a>
+                                                    <a href="#"><i class="fa fa-star"></i></a>
+                                                </div>
+                                                <p>
+                                                    4.9 rating
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <!-- <h6>
+                                                                            $69.99
+                                                                        </h6> -->
+                                                <a href="account.html" class="hdr-btn">
+                                                    <i class="fa-solid fa-user"></i>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                        <div class="product-nav-img">
+                                            <a href="#" data-bs-target="product1" class="active">
+                                                <img src="images/product-nav1.jpg" alt="product-nav1"
+                                                    class="product-nav-img" />
+                                            </a>
+                                            <a href="#" data-bs-target="product2">
+                                                <img src="images/product-nav2.jpg" alt="product-nav2"
+                                                    class="product-nav-img" />
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6 col-12" data-aos="zoom-in" data-aos-duration="1000"
+                                data-aos-delay="200">
+                                <div class="product-card">
+                                    <div class="product-card-image">
+                                        <a href="product-detail.html" class="product1">
+                                            <img src="images/product-nav1.jpg" alt="product1" class="product-img" />
+                                        </a>
+                                        <a href="product-detail.html" class="product2 active">
+                                            <img src="images/product2.jpg" alt="product2" class="product-img" />
+                                        </a>
+                                    </div>
+                                    <div class="product-card-text">
+                                        <p class="subheading">
+                                            Caribex Men's Classic Modern Wide Width Plain Toe Oxford
+                                        </p>
+                                        <ul class="product-list">
+                                            <li>
+                                                <div class="stars">
+                                                    <a href="#"><i class="fa fa-star"></i></a>
+                                                    <a href="#"><i class="fa fa-star"></i></a>
+                                                    <a href="#"><i class="fa fa-star"></i></a>
+                                                    <a href="#"><i class="fa fa-star"></i></a>
+                                                    <a href="#"><i class="fa fa-star"></i></a>
+                                                </div>
+                                                <p>
+                                                    4.9 rating
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <!-- <h6>
+                                                                            $69.99
+                                                                        </h6> -->
+                                                <a href="account.html" class="hdr-btn">
+                                                    <i class="fa-solid fa-user"></i>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                        <div class="product-nav-img">
+                                            <a href="#" data-bs-target="product1" class="active">
+                                                <img src="images/product-nav1.jpg" alt="product-nav1"
+                                                    class="product-nav-img" />
+                                            </a>
+                                            <a href="#" data-bs-target="product2">
+                                                <img src="images/product-nav2.jpg" alt="product-nav2"
+                                                    class="product-nav-img" />
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6 col-12" data-aos="zoom-in" data-aos-duration="1000"
+                                data-aos-delay="300">
+                                <div class="product-card">
+                                    <div class="product-card-image">
+                                        <a href="product-detail.html" class="product1">
+                                            <img src="images/product-nav1.jpg" alt="product1" class="product-img" />
+                                        </a>
+                                        <a href="product-detail.html" class="product2 active">
+                                            <img src="images/product3.jpg" alt="product2" class="product-img" />
+                                        </a>
+                                    </div>
+                                    <div class="product-card-text">
+                                        <p class="subheading">
+                                            Caribex Men's Classic Modern Wide Width Plain Toe Oxford
+                                        </p>
+                                        <ul class="product-list">
+                                            <li>
+                                                <div class="stars">
+                                                    <a href="#"><i class="fa fa-star"></i></a>
+                                                    <a href="#"><i class="fa fa-star"></i></a>
+                                                    <a href="#"><i class="fa fa-star"></i></a>
+                                                    <a href="#"><i class="fa fa-star"></i></a>
+                                                    <a href="#"><i class="fa fa-star"></i></a>
+                                                </div>
+                                                <p>
+                                                    4.9 rating
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <!-- <h6>
+                                                                            $69.99
+                                                                        </h6> -->
+                                                <a href="account.html" class="hdr-btn">
+                                                    <i class="fa-solid fa-user"></i>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                        <div class="product-nav-img">
+                                            <a href="#" data-bs-target="product1" class="active">
+                                                <img src="images/product-nav1.jpg" alt="product-nav1"
+                                                    class="product-nav-img" />
+                                            </a>
+                                            <a href="#" data-bs-target="product2">
+                                                <img src="images/product-nav2.jpg" alt="product-nav2"
+                                                    class="product-nav-img" />
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6 col-12" data-aos="zoom-in" data-aos-duration="1000"
+                                data-aos-delay="400">
+                                <div class="product-card">
+                                    <div class="product-card-image">
+                                        <a href="product-detail.html" class="product1">
+                                            <img src="images/product-nav1.jpg" alt="product1" class="product-img" />
+                                        </a>
+                                        <a href="product-detail.html" class="product2 active">
+                                            <img src="images/product4.jpg" alt="product2" class="product-img" />
+                                        </a>
+                                    </div>
+                                    <div class="product-card-text">
+                                        <p class="subheading">
+                                            Caribex Men's Classic Modern Wide Width Plain Toe Oxford
+                                        </p>
+                                        <ul class="product-list">
+                                            <li>
+                                                <div class="stars">
+                                                    <a href="#"><i class="fa fa-star"></i></a>
+                                                    <a href="#"><i class="fa fa-star"></i></a>
+                                                    <a href="#"><i class="fa fa-star"></i></a>
+                                                    <a href="#"><i class="fa fa-star"></i></a>
+                                                    <a href="#"><i class="fa fa-star"></i></a>
+                                                </div>
+                                                <p>
+                                                    4.9 rating
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <!-- <h6>
+                                                                            $69.99
+                                                                        </h6> -->
+                                                <a href="account.html" class="hdr-btn">
+                                                    <i class="fa-solid fa-user"></i>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                        <div class="product-nav-img">
+                                            <a href="#" data-bs-target="product1" class="active">
+                                                <img src="images/product-nav1.jpg" alt="product-nav1"
+                                                    class="product-nav-img" />
+                                            </a>
+                                            <a href="#" data-bs-target="product2">
+                                                <img src="images/product-nav2.jpg" alt="product-nav2"
+                                                    class="product-nav-img" />
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="Footer"></div>
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/wow.js"></script>
+    <script src="slick/slick.js"></script>
+    <script src="slick/slick.min.js"></script>
+    <script src="js/jquery.slicknav.js"></script>
+    <script src="js/fancybox.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/font.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/ScrollSmoother.min.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="js/gsap-animation.js"></script>
+</body>
+
+</html>
